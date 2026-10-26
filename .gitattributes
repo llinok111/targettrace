@@ -1,0 +1,9 @@
+# Keep the working tree and the index on LF everywhere. Without this, an editor
+# on Windows rewrites checked-out files with CRLF and `git diff` reports the whole
+# file as changed, which hides real changes.
+* text=auto eol=lf
+
+# Binary or otherwise byte-exact artifacts.
+*.png binary
+*.zip binary
+*.woff2 binary

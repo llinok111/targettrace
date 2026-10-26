@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-10-26",
+  "node": "v22.22.2",
+  "browserslist": "4.29.4",
+  "caniuseLite": "1.0.30001819",
+  "platform": "win32",
+  "queries": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead",
+    "not ie 11"
+  ],
+  "clauseCount": 5,
+  "warmRuns": 200,
+  "coldRuns": 25,
+  "warm": [
+    {
+      "label": "browserslist(queries)",
+      "medianMs": 0.0043,
+      "ratioVsUpstream": 1
+    },
+    {
+      "label": "trace(queries)",
+      "medianMs": 0.0504,
+      "ratioVsUpstream": 11.72
+    },
+    {
+      "label": "trace(queries, {coverage})",
+      "medianMs": 0.0516,
+      "ratioVsUpstream": 12
+    },
+    {
+      "label": "lint(trace, {coverage})",
+      "medianMs": 0.0436,
+      "ratioVsUpstream": 10.14
+    }
+  ],
+  "cold": [
+    {
+      "label": "browserslist(queries)",
+      "medianMs": 7.9756,
+      "ratioVsUpstream": 1
+    },
+    {
+      "label": "trace(queries)",
+      "medianMs": 11.3549,
+      "ratioVsUpstream": 1.42
+    },
+    {
+      "label": "trace(queries, {coverage})",
+      "medianMs": 11.5584,
+      "ratioVsUpstream": 1.45
+    },
+    {
+      "label": "lint(trace, {coverage})",
+      "medianMs": 11.5003,
+      "ratioVsUpstream": 1.44
+    }
+  ],
+  "corpusSweep": {
+    "configs": 276,
+    "runs": 5,
+    "medianMs": 41.75,
+    "medianMsPerConfig": 0.151
+  }
+}

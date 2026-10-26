@@ -1,0 +1,101 @@
+{
+  "browser": "msedge.exe",
+  "generatedAt": "2026-10-26T16:23:23.924Z",
+  "checks": [
+    {
+      "ok": true,
+      "message": "default preset renders 4 ledger rows"
+    },
+    {
+      "ok": true,
+      "message": "all 5 presets present"
+    },
+    {
+      "ok": true,
+      "message": "meta line reports data versions and replay result"
+    },
+    {
+      "ok": true,
+      "message": "default preset shows no findings"
+    },
+    {
+      "ok": true,
+      "message": "provenance panel renders a chain"
+    },
+    {
+      "ok": true,
+      "message": "no template placeholder left behind"
+    },
+    {
+      "ok": true,
+      "message": "desktop has no horizontal overflow (1265 <= 1280)"
+    },
+    {
+      "ok": true,
+      "message": "preset switching re-renders the ledger and findings"
+    },
+    {
+      "ok": true,
+      "message": "browser lookup explains ie 11 on the undone-not preset"
+    },
+    {
+      "ok": true,
+      "message": "no console or runtime errors"
+    },
+    {
+      "ok": true,
+      "message": "no zero-size, overflowing or off-viewport elements"
+    },
+    {
+      "ok": true,
+      "message": "all sampled text meets WCAG AA (min 7.37)"
+    },
+    {
+      "ok": true,
+      "message": "desktop screenshot 1280x900, bg luma 0, ink 4.92%, 3043 colors"
+    },
+    {
+      "ok": true,
+      "message": "mobile 390px viewport has no horizontal overflow (421 <= 421)"
+    },
+    {
+      "ok": true,
+      "message": "mobile screenshot 780x1688, ink 5.27%"
+    }
+  ],
+  "shots": {
+    "desktop": {
+      "width": 1280,
+      "height": 900,
+      "colors": 3043,
+      "meanLuma": 5.39,
+      "background": {
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "luma": 0,
+        "share": 0.9258
+      },
+      "inkShare": 4.92
+    },
+    "mobile": {
+      "width": 780,
+      "height": 1688,
+      "colors": 2797,
+      "meanLuma": 7.38,
+      "background": {
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "luma": 0,
+        "share": 0.903
+      },
+      "inkShare": 5.27
+    }
+  },
+  "ok": true
+}

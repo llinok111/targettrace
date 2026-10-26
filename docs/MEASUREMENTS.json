@@ -1,0 +1,251 @@
+{
+  "generatedAt": "2026-10-26",
+  "corpus": {
+    "file": "corpus/configs.json",
+    "collectedAt": "2026-10-26",
+    "total": 276,
+    "distinctShapes": 121
+  },
+  "buckets": {
+    "traceable": 268,
+    "extends-unresolved": 7,
+    "env-missing": 0,
+    "invalid-query": 1,
+    "other-error": 0,
+    "empty": 0
+  },
+  "replay": {
+    "traceable": 268,
+    "mismatches": 0,
+    "exact": 268
+  },
+  "attribution": {
+    "naiveDisagreements": 27,
+    "compared": 268,
+    "examples": [
+      {
+        "repo": "opensearch-project/OpenSearch-Dashboards:.browserslistrc",
+        "queries": [
+          "Firefox > 0 and last 2 years and > 0.01%",
+          "Chrome > 0 and last 2 years and > 0.01%",
+          "Safari > 0 and last 2 years and > 0.01%",
+          "Edge > 0 and last 1 years and > 0.01%",
+          "Opera > 0 and last 2 years and > 0.01%",
+          "> 0.2%",
+          "not op_mini all",
+          "not and_uc < 100",
+          "not android < 100",
+          "not dead"
+        ],
+        "missingFromNaive": [],
+        "extraInNaive": [
+          "and_qq 14.9",
+          "android 156",
+          "chrome 10",
+          "chrome 100",
+          "chrome 101",
+          "chrome 102"
+        ],
+        "sizeActual": 63,
+        "sizeNaive": 620
+      },
+      {
+        "repo": "team-innovation/vue-sfc-rollup:templates/single/_template.browserslistrc",
+        "queries": [
+          "current node",
+          "last 2 versions and > 2%",
+          "ie > 10"
+        ],
+        "missingFromNaive": [],
+        "extraInNaive": [
+          "and_ff 158",
+          "and_qq 14.9",
+          "and_uc 15.5",
+          "android 156",
+          "baidu 13.52",
+          "bb 10"
+        ],
+        "sizeActual": 3,
+        "sizeNaive": 36
+      },
+      {
+        "repo": "team-innovation/vue-sfc-rollup:templates/library/_template.browserslistrc",
+        "queries": [
+          "current node",
+          "last 2 versions and > 2%",
+          "ie > 10"
+        ],
+        "missingFromNaive": [],
+        "extraInNaive": [
+          "and_ff 158",
+          "and_qq 14.9",
+          "and_uc 15.5",
+          "android 156",
+          "baidu 13.52",
+          "bb 10"
+        ],
+        "sizeActual": 3,
+        "sizeNaive": 36
+      },
+      {
+        "repo": "rstudio/learnr:.browserslistrc",
+        "queries": [
+          "last 2 versions",
+          "not dead",
+          "> 0.2%",
+          "Firefox ESR",
+          "phantomjs 2.1",
+          "IE 11"
+        ],
+        "missingFromNaive": [
+          "ie 11"
+        ],
+        "extraInNaive": [],
+        "sizeActual": 57,
+        "sizeNaive": 56
+      },
+      {
+        "repo": "digital-analytics-program/gov-wide-code:.browserslistrc",
+        "queries": [
+          "last 2 versions",
+          "not dead",
+          "> 0.1%",
+          "Firefox ESR"
+        ],
+        "missingFromNaive": [
+          "ie 11"
+        ],
+        "extraInNaive": [],
+        "sizeActual": 71,
+        "sizeNaive": 70
+      },
+      {
+        "repo": "nateplusplus/pushin:.browserslistrc",
+        "queries": [
+          "defaults",
+          "last 2 versions",
+          "not dead",
+          "> 0.2%",
+          "ie > 10"
+        ],
+        "missingFromNaive": [
+          "ie 11"
+        ],
+        "extraInNaive": [],
+        "sizeActual": 56,
+        "sizeNaive": 55
+      }
+    ]
+  },
+  "rules": {
+    "TT003": 123,
+    "TT006": 83,
+    "TT002": 6,
+    "TT001": 71,
+    "TT005": 45,
+    "TT004": 17,
+    "TT007": 1
+  },
+  "configsWithRule": {
+    "TT003": 123,
+    "TT006": 83,
+    "TT002": 6,
+    "TT001": 71,
+    "TT005": 45,
+    "TT004": 17,
+    "TT007": 1
+  },
+  "coverage": {
+    "samples": 268,
+    "medianGlobal": 83.55,
+    "min": 0,
+    "max": 97.49
+  },
+  "clauses": {
+    "total": 1381,
+    "median": 4,
+    "max": 55
+  },
+  "versions": {
+    "browserslist": "4.29.4",
+    "caniuseLite": "1.0.30001819"
+  },
+  "failures": [
+    {
+      "repo": "marko-js/marko",
+      "path": ".browserslistrc",
+      "kind": "extends-unresolved",
+      "queries": [
+        "extends @ebay/browserslist-config"
+      ],
+      "message": "Cannot find module '@ebay/browserslist-config'"
+    },
+    {
+      "repo": "hinok/react-router-last-location",
+      "path": " .browserslistrc",
+      "kind": "invalid-query",
+      "queries": [
+        "{",
+        "\"browserslist\": [",
+        "\"defaults\"",
+        "]",
+        "}"
+      ],
+      "message": "Unknown browser query `{`. Maybe you are using old Browserslist or made typo in query."
+    },
+    {
+      "repo": "toptal/picasso",
+      "path": ".browserslistrc",
+      "kind": "extends-unresolved",
+      "queries": [
+        "extends @toptal/browserslist-config"
+      ],
+      "message": "Cannot find module '@toptal/browserslist-config'"
+    },
+    {
+      "repo": "ibericode/mailchimp-for-wordpress",
+      "path": ".browserslistrc",
+      "kind": "extends-unresolved",
+      "queries": [
+        "extends @wordpress/browserslist-config"
+      ],
+      "message": "Cannot find module '@wordpress/browserslist-config'"
+    },
+    {
+      "repo": "wikimedia/mediawiki-extensions-MobileFrontend",
+      "path": ".browserslistrc",
+      "kind": "extends-unresolved",
+      "queries": [
+        "extends browserslist-config-wikimedia/modern"
+      ],
+      "message": "Cannot find module 'browserslist-config-wikimedia/modern'"
+    },
+    {
+      "repo": "PopupMaker/Popup-Maker",
+      "path": ".browserslistrc",
+      "kind": "extends-unresolved",
+      "queries": [
+        "extends @code-atlantic/browserslist-config"
+      ],
+      "message": "Cannot find module '@code-atlantic/browserslist-config'"
+    },
+    {
+      "repo": "tsparticles/tsparticles",
+      "path": "palettes/atmospheric/lightning/.browserslistrc",
+      "kind": "extends-unresolved",
+      "queries": [
+        "extends @tsparticles/browserslist-config"
+      ],
+      "message": "Cannot find module '@tsparticles/browserslist-config'"
+    },
+    {
+      "repo": "code-atlantic/content-control",
+      "path": ".browserslistrc",
+      "kind": "extends-unresolved",
+      "queries": [
+        "extends @code-atlantic/browserslist-config"
+      ],
+      "message": "Cannot find module '@code-atlantic/browserslist-config'"
+    }
+  ]
+}

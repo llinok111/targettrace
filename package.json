@@ -1,0 +1,50 @@
+{
+  "name": "targettrace",
+  "version": "1.0.0",
+  "description": "Clause-level explainability and lint for browserslist: which query put each browser into your build targets, and which queries do nothing.",
+  "main": "src/index.js",
+  "bin": {
+    "targettrace": "bin/targettrace.js"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "LICENSE",
+    "NOTICE.md",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node scripts/test.cjs",
+    "measure": "node scripts/measure.cjs",
+    "bench": "node scripts/bench.cjs",
+    "demo": "node scripts/build-demo.cjs",
+    "verify:demo": "node scripts/verify-demo.cjs",
+    "docs": "node scripts/gen-docs.cjs",
+    "corpus": "node scripts/collect-corpus.cjs",
+    "check": "npm test && npm run measure && npm run bench && npm run demo && npm run verify:demo && npm run docs"
+  },
+  "keywords": [
+    "browserslist",
+    "build-targets",
+    "audit",
+    "lint",
+    "explainability",
+    "caniuse"
+  ],
+  "author": "llinok111",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "browserslist": "4.29.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llinok111/targettrace.git"
+  },
+  "homepage": "https://llinok111.github.io/targettrace/",
+  "bugs": {
+    "url": "https://github.com/llinok111/targettrace/issues"
+  }
+}

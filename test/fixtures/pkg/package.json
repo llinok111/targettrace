@@ -1,0 +1,8 @@
+{
+  "name": "fixture",
+  "private": true,
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ]
+}

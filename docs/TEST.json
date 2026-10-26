@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-10-26",
+  "files": [
+    "test/cli.test.js",
+    "test/config.test.js",
+    "test/corpus.test.js",
+    "test/diff.test.js",
+    "test/docs.test.js",
+    "test/lint.test.js",
+    "test/package.test.js",
+    "test/trace.test.js"
+  ],
+  "tests": 62,
+  "pass": 62,
+  "fail": 0,
+  "skipped": 0,
+  "exitCode": 0
+}

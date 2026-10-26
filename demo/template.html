@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>targettrace — which browserslist clause did it</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #000000;
+    --line: #333333;
+    --text: #CCCCCC;
+    --muted: #999999;
+    --bright: #FFFFFF;
+    --add: mediumseagreen;
+    --remove: tomato;
+    --warn: goldenrod;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", "Consolas", "Menlo", monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 14px;
+    line-height: 1.55;
+  }
+  header {
+    padding: 28px 24px 18px;
+    border-bottom: 1px solid var(--line);
+  }
+  h1 {
+    margin: 0 0 6px;
+    font-size: 20px;
+    letter-spacing: .06em;
+    color: var(--bright);
+    font-weight: 600;
+  }
+  .tagline { margin: 0; color: var(--muted); max-width: 78ch; }
+  .meta { margin-top: 10px; color: var(--muted); font-size: 12px; }
+  main { padding: 20px 24px 56px; max-width: 1180px; }
+  .presets { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+  .preset {
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--text);
+    padding: 7px 12px;
+    font: inherit;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  .preset:hover { border-color: var(--muted); color: var(--bright); }
+  .preset[aria-pressed="true"] {
+    border-color: var(--bright);
+    color: var(--bright);
+  }
+  .queries {
+    border: 1px solid var(--line);
+    padding: 12px 14px;
+    margin-bottom: 18px;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .queries .q { display: block; color: var(--bright); }
+  .queries .q span { color: var(--muted); }
+  .grid { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 18px; }
+  @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+  section.panel { border: 1px solid var(--line); }
+  .panel h2 {
+    margin: 0;
+    padding: 10px 14px;
+    font-size: 12px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 1px solid var(--line);
+    font-weight: 600;
+  }
+  .panel .body { padding: 12px 14px; }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #1f1f1f; vertical-align: top; }
+  th { color: var(--muted); font-weight: 500; font-size: 12px; }
+  td.num, th.num { text-align: right; }
+  tr.clause td:first-child { color: var(--muted); }
+  .add { color: var(--add); }
+  .remove { color: var(--remove); }
+  .zero { color: #666666; }
+  .finding { border-bottom: 1px solid #1f1f1f; padding: 9px 0; }
+  .finding:last-child { border-bottom: 0; }
+  .finding .rule { color: var(--warn); }
+  .finding .sev-info .rule { color: var(--muted); }
+  .finding .msg { display: block; margin-top: 2px; }
+  .finding .ev { display: block; color: var(--muted); font-size: 12px; margin-top: 3px; }
+  .clean { color: var(--add); }
+  .totals { margin-top: 12px; color: var(--muted); font-size: 12px; }
+  .totals strong { color: var(--bright); font-weight: 600; }
+  .lookup { display: flex; gap: 8px; margin-top: 10px; }
+  .lookup input {
+    flex: 1;
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--bright);
+    padding: 7px 10px;
+    font: inherit;
+    min-width: 0;
+  }
+  .lookup button {
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--text);
+    padding: 7px 12px;
+    font: inherit;
+    cursor: pointer;
+  }
+  .lookup button:hover { border-color: var(--muted); color: var(--bright); }
+  .chain { margin-top: 12px; font-size: 13px; }
+  .chain .name { color: var(--bright); }
+  .chain .event { margin-left: 14px; color: var(--muted); }
+  .chain .event b { color: var(--text); font-weight: 500; }
+  .hint { color: var(--muted); font-size: 12px; margin-top: 8px; }
+  .badge {
+    display: inline-block;
+    border: 1px solid var(--line);
+    padding: 1px 6px;
+    font-size: 11px;
+    color: var(--muted);
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  .badge.ok { color: var(--add); border-color: #1f4d31; }
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 16px 24px 40px;
+    color: var(--muted);
+    font-size: 12px;
+    max-width: 1180px;
+  }
+  a { color: var(--text); }
+</style>
+</head>
+<body>
+<header>
+  <h1>targettrace</h1>
+  <p class="tagline">browserslist answers <em>what</em> your targets are. targettrace answers <em>which clause</em> put each browser there, which clauses change nothing, and which <code>not</code> clauses get undone later.</p>
+  <div class="meta" id="meta"></div>
+</header>
+
+<main>
+  <div class="presets" id="presets" role="group" aria-label="presets"></div>
+  <div class="queries" id="queries"></div>
+
+  <div class="grid">
+    <section class="panel">
+      <h2>clause ledger <span class="badge ok" id="replay">replay verified</span></h2>
+      <div class="body">
+        <table>
+          <thead>
+            <tr>
+              <th class="num">#</th>
+              <th>clause</th>
+              <th class="num">selected</th>
+              <th class="num">+</th>
+              <th class="num">-</th>
+              <th class="num">size</th>
+              <th class="num">coverage</th>
+            </tr>
+          </thead>
+          <tbody id="ledger"></tbody>
+        </table>
+        <div class="totals" id="totals"></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>findings</h2>
+      <div class="body" id="findings"></div>
+    </section>
+  </div>
+
+  <section class="panel" style="margin-top:18px">
+    <h2>browser provenance</h2>
+    <div class="body">
+      <div class="lookup">
+        <input id="browser" list="browser-list" placeholder="browser name or version, e.g. ie 11 / chrome" aria-label="browser name">
+        <datalist id="browser-list"></datalist>
+        <button id="lookup-btn" type="button">explain</button>
+      </div>
+      <div class="chain" id="chain"></div>
+      <p class="hint">Every number on this page comes from a build-time trace; the page ships no browser data of its own.</p>
+    </div>
+  </section>
+</main>
+
+<footer id="footer"></footer>
+
+<script id="payload" type="application/json">__PRESETS__</script>
+<script>
+(function () {
+  var payload = JSON.parse(document.getElementById('payload').textContent)
+  var presets = payload.presets
+  var meta = payload.meta
+  var current = 0
+
+  document.getElementById('meta').textContent =
+    'browserslist ' + meta.browserslist + ' · caniuse-lite ' + meta.caniuseLite +
+    ' · corpus ' + meta.corpusTotal + ' real configs, ' + meta.corpusTraceable + ' traced, ' +
+    meta.mismatches + ' replay mismatches'
+  document.getElementById('footer').textContent =
+    'targettrace is MIT-licensed. Upstream: browserslist ' + meta.browserslist +
+    ' (MIT). Browser data: caniuse-lite (CC-BY-4.0). Built ' + meta.builtAt + '.'
+
+  function pct (value) {
+    return typeof value === 'number' ? value.toFixed(2) + '%' : '—'
+  }
+
+  function el (tag, className, text) {
+    var node = document.createElement(tag)
+    if (className) node.className = className
+    if (text !== undefined) node.textContent = text
+    return node
+  }
+
+  function renderPresets () {
+    var host = document.getElementById('presets')
+    host.textContent = ''
+    presets.forEach(function (preset, index) {
+      var button = el('button', 'preset', preset.label)
+      button.type = 'button'
+      button.setAttribute('aria-pressed', index === current ? 'true' : 'false')
+      button.addEventListener('click', function () {
+        current = index
+        renderPresets()
+        render()
+      })
+      host.appendChild(button)
+    })
+  }
+
+  function renderQueries (preset) {
+    var host = document.getElementById('queries')
+    host.textContent = ''
+    preset.queries.forEach(function (query) {
+      var line = el('span', 'q')
+      line.appendChild(document.createTextNode(query))
+      host.appendChild(line)
+    })
+    host.appendChild(el('div', 'hint', preset.note))
+  }
+
+  function renderLedger (preset) {
+    var body = document.getElementById('ledger')
+    body.textContent = ''
+    preset.steps.forEach(function (step) {
+      var row = el('tr', 'clause')
+      row.appendChild(el('td', 'num', String(step.index)))
+      row.appendChild(el('td', '', (step.not ? 'not ' : '') + step.text))
+      row.appendChild(el('td', 'num', String(step.selected)))
+      row.appendChild(el('td', 'num' + (step.add > 0 ? ' add' : ' zero'), '+' + step.add))
+      row.appendChild(el('td', 'num' + (step.remove > 0 ? ' remove' : ' zero'), '-' + step.remove))
+      row.appendChild(el('td', 'num', String(step.size)))
+      row.appendChild(el('td', 'num', pct(step.coverage)))
+      body.appendChild(row)
+    })
+
+    var totals = document.getElementById('totals')
+    totals.textContent = ''
+    totals.appendChild(el('strong', '', String(preset.finalSize)))
+    totals.appendChild(document.createTextNode(' browsers in the final list'))
+    if (preset.coverage !== null) {
+      totals.appendChild(document.createTextNode(' · '))
+      totals.appendChild(el('strong', '', pct(preset.coverage)))
+      totals.appendChild(document.createTextNode(' global usage'))
+    }
+  }
+
+  function renderFindings (preset) {
+    var host = document.getElementById('findings')
+    host.textContent = ''
+    if (preset.findings.length === 0) {
+      host.appendChild(el('div', 'clean', 'no findings'))
+      return
+    }
+    preset.findings.forEach(function (finding) {
+      var wrap = el('div', 'finding')
+      var head = el('div', finding.severity === 'info' ? 'sev-info' : '')
+      head.appendChild(el('span', 'rule', finding.rule + ' ' + finding.severity))
+      head.appendChild(el('span', 'msg', finding.message))
+      wrap.appendChild(head)
+      if (finding.examples && finding.examples.length) {
+        wrap.appendChild(el('span', 'ev', 'e.g. ' + finding.examples.join(', ')))
+      }
+      host.appendChild(wrap)
+    })
+  }
+
+  function renderLookup (preset) {
+    var list = document.getElementById('browser-list')
+    list.textContent = ''
+    preset.chains.slice(0, 80).forEach(function (entry) {
+      var option = document.createElement('option')
+      option.value = entry.name
+      list.appendChild(option)
+    })
+    document.getElementById('browser').value = preset.chains.length ? preset.chains[0].name : ''
+    renderChain(preset)
+  }
+
+  function renderChain (preset) {
+    var host = document.getElementById('chain')
+    host.textContent = ''
+    var wanted = document.getElementById('browser').value.trim().toLowerCase()
+    if (!wanted) {
+      host.appendChild(el('div', 'hint', 'type a browser name'))
+      return
+    }
+    var entry = null
+    for (var i = 0; i < preset.chains.length; i++) {
+      if (preset.chains[i].name.toLowerCase() === wanted) { entry = preset.chains[i]; break }
+    }
+    if (!entry) {
+      for (var j = 0; j < preset.chains.length; j++) {
+        if (preset.chains[j].name.toLowerCase().indexOf(wanted + ' ') === 0) { entry = preset.chains[j]; break }
+      }
+    }
+    if (!entry) {
+      host.appendChild(el('div', 'hint', 'not selected by any clause in this preset'))
+      return
+    }
+    var head = el('div')
+    head.appendChild(el('span', 'name', entry.name))
+    head.appendChild(document.createTextNode(entry.survived ? ' → in final list' : ' → dropped'))
+    host.appendChild(head)
+    entry.steps.forEach(function (event) {
+      var line = el('div', 'event')
+      line.appendChild(el('b', '', event.action === 'add' ? 'added' : 'removed'))
+      line.appendChild(document.createTextNode(' by [' + event.index + '] ' + event.query))
+      host.appendChild(line)
+    })
+    if (entry.steps.length === 0) {
+      host.appendChild(el('div', 'event', 'only ever matched by a not-clause'))
+    }
+  }
+
+  function render () {
+    var preset = presets[current]
+    renderQueries(preset)
+    renderLedger(preset)
+    renderFindings(preset)
+    renderLookup(preset)
+    document.getElementById('replay').textContent =
+      preset.replayOk ? 'replay verified' : 'replay mismatch'
+  }
+
+  document.getElementById('lookup-btn').addEventListener('click', function () {
+    renderChain(presets[current])
+  })
+  document.getElementById('browser').addEventListener('keydown', function (event) {
+    if (event.key === 'Enter') renderChain(presets[current])
+  })
+
+  renderPresets()
+  render()
+})()
+</script>
+</body>
+</html>

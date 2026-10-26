@@ -1,0 +1,1939 @@
+{
+  "collectedAt": "2026-10-26",
+  "source": "GitHub code search: filename:.browserslistrc",
+  "count": 276,
+  "entries": [
+    {
+      "repo": "tabler/tabler",
+      "path": ".browserslistrc",
+      "url": "https://github.com/tabler/tabler/blob/HEAD/.browserslistrc",
+      "sha256": "dea7d66e1bb8b93ec90a4fe0e260f6f9b724d62febcc31381e0d33b7044596cf",
+      "text": "# Tabler's CSS uses these five with no fallback, so the floor is the first\n# release that supports all of them:\n#   light-dark()  Chrome 123, Firefox 120, Safari 17.5\n#   @property     Chrome  85, Firefox 128, Safari 16.4\n#   :has()        Chrome 105, Firefox 121, Safari 15.4\n#   color-mix()   Chrome 111, Firefox 113, Safari 16.2\n#   oklch(from …) Chrome 122, Firefox 128, Safari 16.4\n# Opera 109 and Samsung Internet 27 are the first releases built on Chromium 123.\nChrome >= 123\nEdge >= 123\nFirefox >= 128\nSafari >= 17.5\niOS >= 17.5\nOpera >= 109\nSamsung >= 27\n"
+    },
+    {
+      "repo": "MetaMask/metamask-extension",
+      "path": ".browserslistrc",
+      "url": "https://github.com/MetaMask/metamask-extension/blob/HEAD/.browserslistrc",
+      "sha256": "950586abf89864126f25ee0934387e33c4600dc091b76b176b0480c55350323d",
+      "text": "chrome >= 123, firefox >= 128\n"
+    },
+    {
+      "repo": "mapbox/mapbox-gl-js",
+      "path": ".browserslistrc",
+      "url": "https://github.com/mapbox/mapbox-gl-js/blob/HEAD/.browserslistrc",
+      "sha256": "149cc2ffcddfe19bab66338895b1137a7855df90a0b9298ccf16f3a149067f56",
+      "text": "# Mapbox GL JS - Supported Browsers\n# ==================================\n# Static list based on required features:\n#   - WebGL 2\n#   - Worker type:'module'\n#   - Promise.allSettled\n#   - Object.hasOwn\n#   - Array.at\n#   - async/await\n#   - AbortSignal.throwIfAborted()\n#\n#   Browser        | Limiting Feature          | Min\n#   ---------------|---------------------------|----\n#   Chrome         | AbortSignal.throwIfAborted() | 100\n#   Safari         | Array.at                  | 15.4\n#   Firefox        | Object.hasOwn             | 115\n#   Edge           | AbortSignal.throwIfAborted() | 100\n#   Chrome Android | AbortSignal.throwIfAborted() | 100\n#   iOS Safari     | Array.at                  | 15.4\n\nchrome >= 100\nsafari >= 15.4\nfirefox >= 115\nedge >= 100\nand_chr >= 100\nios_saf >= 15.4\n"
+    },
+    {
+      "repo": "graphql/graphiql",
+      "path": ".browserslistrc",
+      "url": "https://github.com/graphql/graphiql/blob/HEAD/.browserslistrc",
+      "sha256": "16b97de39d416b3bd40b2b5c665f921a87657b63b800986817945f54abb3797b",
+      "text": "last 2 versions\nFirefox ESR\nnot dead\nnot IE 11\nnot ios 10\n"
+    },
+    {
+      "repo": "marko-js/marko",
+      "path": ".browserslistrc",
+      "url": "https://github.com/marko-js/marko/blob/HEAD/.browserslistrc",
+      "sha256": "5e98b4b1d325e5601c29e969d779c10912f607026b64595b635d53a1eb155716",
+      "text": "extends @ebay/browserslist-config\n"
+    },
+    {
+      "repo": "javve/list.js",
+      "path": ".browserslistrc",
+      "url": "https://github.com/javve/list.js/blob/HEAD/.browserslistrc",
+      "sha256": "cf7da275f018411cb2589c7e3a89d1ffe52111510d9a59909b0c525900ffb087",
+      "text": "ie 9"
+    },
+    {
+      "repo": "dessant/buster",
+      "path": ".browserslistrc",
+      "url": "https://github.com/dessant/buster/blob/HEAD/.browserslistrc",
+      "sha256": "0d6070deb5da00eb907532cd84b246b32414c682b569b8258bf842287747000e",
+      "text": "[chrome]\nChrome >= 123\nEdge >= 123\nOpera >= 109\n\n[edge]\nEdge >= 123\n\n[firefox]\nFirefox >= 115\n\n[opera]\nOpera >= 109\n"
+    },
+    {
+      "repo": "clauderic/dnd-kit",
+      "path": ".browserslistrc",
+      "url": "https://github.com/clauderic/dnd-kit/blob/HEAD/.browserslistrc",
+      "sha256": "d1531199ad79159bb61f66f8200d31606ddc75679da3323853ce97a6d7569190",
+      "text": "defaults\nlast 2 version\nnot IE 11\nnot dead\n"
+    },
+    {
+      "repo": "ngx-rocket/generator-ngx-rocket",
+      "path": "generators/app/templates/_.browserslistrc",
+      "url": "https://github.com/ngx-rocket/generator-ngx-rocket/blob/HEAD/generators/app/templates/_.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "eKoopmans/html2pdf.js",
+      "path": ".browserslistrc",
+      "url": "https://github.com/eKoopmans/html2pdf.js/blob/HEAD/.browserslistrc",
+      "sha256": "41a55c82a0447279327dba6af5ff5d9d2f6cb7bd2d90907d10f6069f708f3f95",
+      "text": "last 1 version\n> 1%\nIE >= 9\n"
+    },
+    {
+      "repo": "huangwei9527/quark-h5",
+      "path": ".browserslistrc",
+      "url": "https://github.com/huangwei9527/quark-h5/blob/HEAD/.browserslistrc",
+      "sha256": "f9653fa5b5beafb114eb980c65777a0783a385701c21c81a0fd7e9da4bcb8e1f",
+      "text": "> 1%\nlast 2 versions\nandroid >= 4.4\n"
+    },
+    {
+      "repo": "ustbhuangyi/vue-sell",
+      "path": ".browserslistrc",
+      "url": "https://github.com/ustbhuangyi/vue-sell/blob/HEAD/.browserslistrc",
+      "sha256": "5ddb35c10b481673fbde52275b983ed053b49e947eaa5524932e29b65cb0c97e",
+      "text": "> 1%\nlast 2 versions\nnot ie <= 8\n\nAndroid >= 4.0\n"
+    },
+    {
+      "repo": "arco-design/arco-design",
+      "path": ".browserslistrc",
+      "url": "https://github.com/arco-design/arco-design/blob/HEAD/.browserslistrc",
+      "sha256": "c1e29cdce7da3ecf3c7f17bec447fbccfb5084de608716f7d9e3857d5ab2d9ab",
+      "text": "chrome 49\nedge 16\nfirefox 31\nsafari 10\nopera 36"
+    },
+    {
+      "repo": "rikschennink/fitty",
+      "path": ".browserslistrc",
+      "url": "https://github.com/rikschennink/fitty/blob/HEAD/.browserslistrc",
+      "sha256": "0c8dcface39d2d04416e6ddaf786bb5f9397fd7b6cc38dc18a143d6d1cc6c46c",
+      "text": "last 2 versions\n> 0.5%\nie >= 10"
+    },
+    {
+      "repo": "basement-chat/basement-chat",
+      "path": " .browserslistrc",
+      "url": "https://github.com/basement-chat/basement-chat/blob/HEAD/ .browserslistrc",
+      "sha256": "c6ff3192eb26e5338fc4689d9cbe32a792fe18ce191b0a0fb1ce78b00cb31c10",
+      "text": "# Browsers & Node.js versions that we support\n# Please see https://browsersl.ist/#q=chrome+%3E%3D+80%2C+edge+%3E%3D+80%2C+firefox+%3E%3D+74%2C+maintained+node+versions for more details\nchrome >= 80\nedge >= 80\nfirefox >= 74\nmaintained node versions\n"
+    },
+    {
+      "repo": "oroinc/crm-application",
+      "path": ".browserslistrc",
+      "url": "https://github.com/oroinc/crm-application/blob/HEAD/.browserslistrc",
+      "sha256": "63398490713bd6a251766055156593b47494ef9ef181b5bdabae8e3c206bc6ea",
+      "text": "> .5% and not IE 11 or last 1 firefox version\n> .5% and not IE 11 or last 1 chrome version\n> .5% and not IE 11 or last 1 edge version\n> .5% and not IE 11 or last 1 safari version\n> .5% and not IE 11 or last 1 iOS version\n"
+    },
+    {
+      "repo": "kylewetton/image-compare-viewer",
+      "path": "__.browserslistrc",
+      "url": "https://github.com/kylewetton/image-compare-viewer/blob/HEAD/__.browserslistrc",
+      "sha256": "6fe8a65348d24beb2c86c362cf5507c9aaacfed457ec4150e15761e0359f2cf8",
+      "text": "[production staging]\n>5%\nlast 2 versions\nFirefox ESR\nnot ie < 11\n\n[development]\nlast 1 chrome version\nlast 1 firefox version\nlast 1 edge version\n"
+    },
+    {
+      "repo": "micromodal/Micromodal",
+      "path": ".browserslistrc",
+      "url": "https://github.com/micromodal/Micromodal/blob/HEAD/.browserslistrc",
+      "sha256": "505d3b002d730ae3260cbb9028cd0ff24fc9f18f0d95085617f887ae11fa0c53",
+      "text": "# Browsers that we support\n\ndefaults\nIE 11\n"
+    },
+    {
+      "repo": "14nrv/buefy-shop",
+      "path": " .browserslistrc",
+      "url": "https://github.com/14nrv/buefy-shop/blob/HEAD/ .browserslistrc",
+      "sha256": "943e8ae9368f291e0797e0ba1d2a5ec6f84496a6c2786d7e672286ab7c8faa71",
+      "text": "> 1%\nnot dead"
+    },
+    {
+      "repo": "opensearch-project/OpenSearch-Dashboards",
+      "path": ".browserslistrc",
+      "url": "https://github.com/opensearch-project/OpenSearch-Dashboards/blob/HEAD/.browserslistrc",
+      "sha256": "dd0cb92082774022f9c6fe6274f6b7bf02c7cfa9fe18d3c3f265fe0a0ceead1e",
+      "text": "[production]\nFirefox > 0 and last 2 years and > 0.01%\nChrome > 0 and last 2 years and > 0.01%\nSafari > 0 and last 2 years and > 0.01%\nEdge > 0 and last 1 years and > 0.01%\nOpera > 0 and last 2 years and > 0.01%\n> 0.2%\nnot op_mini all\nnot and_uc < 100\nnot android < 100\nnot dead\n\n[dev]\nlast 1 chrome versions\nlast 1 firefox versions\nlast 1 safari versions\n"
+    },
+    {
+      "repo": "DevCloudFE/ng-devui",
+      "path": ".browserslistrc",
+      "url": "https://github.com/DevCloudFE/ng-devui/blob/HEAD/.browserslistrc",
+      "sha256": "61feedf803a91c894062ccd5421fb52640d9ddd7f106f9d08841846241386d4e",
+      "text": "# This file is currently used by autoprefixer to adjust CSS to support the below specified browsers\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n#\n\n> 0.5%\nlast 2 versions\nlast 2 Edge major versions\nFirefox ESR\nnot dead\n"
+    },
+    {
+      "repo": "firefox-devtools/profiler",
+      "path": ".browserslistrc",
+      "url": "https://github.com/firefox-devtools/profiler/blob/HEAD/.browserslistrc",
+      "sha256": "9d516f9f988cb8248b6b6d1e996c797c55ec742b37112c908744af9250f8ab17",
+      "text": "[development]\nlast 2 chrome versions\nlast 2 firefox versions\nlast 2 safari versions\n\n[production]\nlast 2 chrome versions\nlast 2 firefox versions\nlast 2 safari versions\n\n[test]\ncurrent node\n"
+    },
+    {
+      "repo": "adobe/spectrum-web-components",
+      "path": ".browserslistrc",
+      "url": "https://github.com/adobe/spectrum-web-components/blob/HEAD/.browserslistrc",
+      "sha256": "7bf2facf104def318c5a0f299308a3ec2e35149b73c0968ff91d8c888ce8b3b6",
+      "text": "defaults\nlast 2 Edge versions\nlast 2 Chrome versions\nlast 2 Firefox versions\nlast 2 Safari versions\nlast 2 iOS versions\nnot IE 11\n"
+    },
+    {
+      "repo": "sulu/sulu",
+      "path": ".browserslistrc",
+      "url": "https://github.com/sulu/sulu/blob/HEAD/.browserslistrc",
+      "sha256": "9b30ac3245743828320f683df2d7a2e21aba6a83222f232b1b1926aee4eb79ed",
+      "text": "last 2 versions and not dead\nnot ie < 12\nnot ie_mob < 12\n"
+    },
+    {
+      "repo": "fengyuanchen/photo-editor",
+      "path": ".browserslistrc",
+      "url": "https://github.com/fengyuanchen/photo-editor/blob/HEAD/.browserslistrc",
+      "sha256": "d675e69a49023d53e9b65a741b3f6c0eed8fe5fa32182dcb95dcbcbd4b10882c",
+      "text": "last 2 versions\nie >= 10\n"
+    },
+    {
+      "repo": "team-innovation/vue-sfc-rollup",
+      "path": "templates/single/_template.browserslistrc",
+      "url": "https://github.com/team-innovation/vue-sfc-rollup/blob/HEAD/templates/single/_template.browserslistrc",
+      "sha256": "da5d40015ca36e3805ded1e57b797f55e86691e90c218c21aa2386a24876d668",
+      "text": "current node\nlast 2 versions and > 2%\nie > 10\n"
+    },
+    {
+      "repo": "team-innovation/vue-sfc-rollup",
+      "path": "templates/library/_template.browserslistrc",
+      "url": "https://github.com/team-innovation/vue-sfc-rollup/blob/HEAD/templates/library/_template.browserslistrc",
+      "sha256": "da5d40015ca36e3805ded1e57b797f55e86691e90c218c21aa2386a24876d668",
+      "text": "current node\nlast 2 versions and > 2%\nie > 10\n"
+    },
+    {
+      "repo": "hinok/react-router-last-location",
+      "path": " .browserslistrc",
+      "url": "https://github.com/hinok/react-router-last-location/blob/HEAD/ .browserslistrc",
+      "sha256": "f5db66d24c525c4094281aec4175ef2d6ad49be6348066ffe8ca08b5c22ce418",
+      "text": "{\n  \"browserslist\": [\n    \"defaults\"\n  ]\n}\n"
+    },
+    {
+      "repo": "rstudio/learnr",
+      "path": ".browserslistrc",
+      "url": "https://github.com/rstudio/learnr/blob/HEAD/.browserslistrc",
+      "sha256": "927ac592c3d584f76ff2ae7344123cbace526301dd7e38c294015bf8f2b38aa5",
+      "text": "# Browsers that we support\nlast 2 versions\nnot dead\n> 0.2%\nFirefox ESR\nphantomjs 2.1\nIE 11 # kinda\n"
+    },
+    {
+      "repo": "the-events-calendar/the-events-calendar",
+      "path": ".browserslistrc",
+      "url": "https://github.com/the-events-calendar/the-events-calendar/blob/HEAD/.browserslistrc",
+      "sha256": "3fafd86239b84ef31fc744eb48990b67ec84c65bcf92b6ae81db3d6ee6cd21d1",
+      "text": "last 2 Chrome versions\nlast 2 Firefox versions\nlast 2 Safari versions\nlast 2 Edge versions\nlast 2 Opera versions\nlast 2 iOS versions\nlast 1 Android version\nlast 1 ChromeAndroid version\nlast 1 FirefoxAndroid version\n> 1%, not op_mini all, not ie <= 11, not ie_mob <= 11\n"
+    },
+    {
+      "repo": "bradleyg/django-s3direct",
+      "path": ".browserslistrc",
+      "url": "https://github.com/bradleyg/django-s3direct/blob/HEAD/.browserslistrc",
+      "sha256": "3a8138a8a4df8f0c45e36b2ac0361ca5e470187e55e7a1971c976a32bb705cec",
+      "text": ">2%\n"
+    },
+    {
+      "repo": "Kyusung4698/PoE-Overlay",
+      "path": ".browserslistrc",
+      "url": "https://github.com/Kyusung4698/PoE-Overlay/blob/HEAD/.browserslistrc",
+      "sha256": "97daf4a9b87c1ebd76326db230fdf3d50b2dbf4974dec803589137ec2a527f22",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist"
+    },
+    {
+      "repo": "truenas/webui",
+      "path": ".browserslistrc",
+      "url": "https://github.com/truenas/webui/blob/HEAD/.browserslistrc",
+      "sha256": "f0aa33be85c36912e3e2a235c5e9d39c472d53b94a81f7246e369184fa79d204",
+      "text": "# Angular 21 supported browsers\n# https://angular.dev/reference/versions#browser-support\nlast 2 Chrome versions\nlast 2 Firefox versions\nlast 2 Edge versions\nlast 2 Safari versions\nlast 2 iOS versions\nFirefox ESR\nnot dead\n"
+    },
+    {
+      "repo": "bem/yandex-ui",
+      "path": ".browserslistrc",
+      "url": "https://github.com/bem/yandex-ui/blob/HEAD/.browserslistrc",
+      "sha256": "58dbe011c916e411189102c4072d896f11fddc1245404709c73b7026fb5a2887",
+      "text": "last 2 versions\nopera >= 12.1\nff >= 23\nandroid >= 4\nios >= 5.1\nie >= 11"
+    },
+    {
+      "repo": "sinonjs/fake-timers",
+      "path": ".browserslistrc",
+      "url": "https://github.com/sinonjs/fake-timers/blob/HEAD/.browserslistrc",
+      "sha256": "bd9bd87eeec73e5fb751ef2f5cde678f6ecff7e79232e9333ffa713f73acf4ac",
+      "text": "> 0.5%\nlast 2 versions\nFirefox ESR\nnot dead\nnot IE 11\nnot op_mini all\nmaintained node versions\n"
+    },
+    {
+      "repo": "zkoss/zk",
+      "path": ".browserslistrc",
+      "url": "https://github.com/zkoss/zk/blob/HEAD/.browserslistrc",
+      "sha256": "0df2f4d194f4cd94733e346a13fdeab4602280fb34261118a544e58d2cbdfc0a",
+      "text": "defaults\nnot dead"
+    },
+    {
+      "repo": "advanced-cropper/vue-advanced-cropper",
+      "path": ".browserslistrc",
+      "url": "https://github.com/advanced-cropper/vue-advanced-cropper/blob/HEAD/.browserslistrc",
+      "sha256": "df96583c5bcde806ddeb9c3ed52ec84dd603a31b55b3dd16a97bec502c0f83f3",
+      "text": "> 1%\nlast 2 versions\nFirefox ESR\nie >= 11\n"
+    },
+    {
+      "repo": "toptal/picasso",
+      "path": ".browserslistrc",
+      "url": "https://github.com/toptal/picasso/blob/HEAD/.browserslistrc",
+      "sha256": "8ae83f30630287410d77c1c46e8cf6028677c292eed1cd334985f6aad8c2385e",
+      "text": "extends @toptal/browserslist-config\n"
+    },
+    {
+      "repo": "tinymce/tinymce-angular",
+      "path": ".browserslistrc",
+      "url": "https://github.com/tinymce/tinymce-angular/blob/HEAD/.browserslistrc",
+      "sha256": "fed60342a5253300312b7c54315addee9e822e6c6265a7908b24e7528fa24fd9",
+      "text": ">0.2%\nnot dead\nnot ie > 0\nnot op_mini all\n"
+    },
+    {
+      "repo": "section-engineering-education/engineering-education",
+      "path": ".browserslistrc",
+      "url": "https://github.com/section-engineering-education/engineering-education/blob/HEAD/.browserslistrc",
+      "sha256": "1de5f963a442fe8a793a1e21921d4786e16a9f35f74386908ffc9412024c1ab6",
+      "text": "# Browsers that we support\n\nlast 2 versions\n> 1%\nnot dead\n"
+    },
+    {
+      "repo": "rollerderby/scoreboard",
+      "path": ".browserslistrc",
+      "url": "https://github.com/rollerderby/scoreboard/blob/HEAD/.browserslistrc",
+      "sha256": "78ad52fb5bb6df7f84f6ae93cd90c5a7d2c32e4f058d80fd4ff2897534530a9b",
+      "text": "# The oldest supported browser is Safari on iOS 9.3 (see PR #767).\nios_saf 9.3\n"
+    },
+    {
+      "repo": "eakoriakin/ionic-selectable",
+      "path": ".browserslistrc",
+      "url": "https://github.com/eakoriakin/ionic-selectable/blob/HEAD/.browserslistrc",
+      "sha256": "e79cbfe7d3141c8e3dd46ecdd6336426714c5ddcabccd147ba5d3cdcd4ecd47b",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.dev/reference/versions#browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nChrome >=111\nChromeAndroid >=111\nFirefox >=112\nEdge >=111\nSafari >=16.4\niOS >=16.4\n"
+    },
+    {
+      "repo": "VladSez/easy-invoice-pdf",
+      "path": ".browserslistrc",
+      "url": "https://github.com/VladSez/easy-invoice-pdf/blob/HEAD/.browserslistrc",
+      "sha256": "67ae34527c86f16f51d1a80b348c68ef97ea1bac5bf892ccea116bd603427184",
+      "text": "# Browser targets for the client bundle (SWC syntax lowering, Lightning CSS and\n# autoprefixer all read this file).\n#\n# Next.js 16 raised its built-in default from Next 15's\n# `chrome 64, edge 79, firefox 67, opera 51, safari 12` to \"baseline widely\n# available\" -- `chrome 111, edge 111, firefox 111, safari 16.4`. That silently\n# drops everything older than iOS 16.4 / Safari 16.4 (March 2023), which is a\n# real slice of the traffic for a tool people open on whatever phone they have.\n#\n# So we keep Next 15's list explicitly. Next only falls back to its own default\n# when no browserslist config resolves, so this file is what restores it.\n#\n# It is also what makes `transpilePackages: [\"pdfjs-dist\"]` in `next.config.mjs`\n# do anything: that entry exists to lower pdf.js's ES2022 syntax for older\n# Safari, and under the Next 16 default targets there was nothing left to lower.\n#\n# Caveat: this only lowers *syntax*. Missing built-ins (`Object.hasOwn`,\n# `Array.prototype.at`, `structuredClone`, ...) are not polyfilled -- exactly as\n# in Next 15. If we ever need those, add\n# `experimental.swcEnvOptions: { mode: \"usage\", coreJs: \"3.x\" }`.\n\nchrome 64\nedge 79\nfirefox 67\nopera 51\nsafari 12\n\n# Next 15's list only named desktop `safari`, and browserslist does not treat\n# that as implying iOS. Spelled out here because this app is opened on phones\n# more than on desktops: iOS 12 is the last release for the iPhone 5s/6/6 Plus.\nios_saf 12\n"
+    },
+    {
+      "repo": "calebj0seph/spectro",
+      "path": ".browserslistrc",
+      "url": "https://github.com/calebj0seph/spectro/blob/HEAD/.browserslistrc",
+      "sha256": "85715a202300c4ba5701b292e4178b687dc0ff8093cace406162be7462d09b4a",
+      "text": "last 2 Chrome major versions\nlast 2 Firefox major versions\nlast 2 Edge major versions\nlast 2 Safari major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "DocHubTeam/DocHub",
+      "path": ".browserslistrc",
+      "url": "https://github.com/DocHubTeam/DocHub/blob/HEAD/.browserslistrc",
+      "sha256": "5026f0417778b2f09606ada457ea0c771789a45c452ba6422e6b483890ce06a7",
+      "text": "last 2 years"
+    },
+    {
+      "repo": "phase2/outline",
+      "path": ".browserslistrc",
+      "url": "https://github.com/phase2/outline/blob/HEAD/.browserslistrc",
+      "sha256": "863a238c1f54e77c562a9e1f55b06b7f0e0c9d42c08065e5cd1335565c5c86dd",
+      "text": "last 2 Chrome major versions\nlast 2 Firefox major versions\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nlast 2 ChromeAndroid versions\nlast 2 FirefoxAndroid versions\nlast 2 Samsung versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "wladich/nakarte",
+      "path": ".browserslistrc",
+      "url": "https://github.com/wladich/nakarte/blob/HEAD/.browserslistrc",
+      "sha256": "dd49e9287e29b9da386a16e3761a8f0f8e88eaa524e910ee12c70b7a44ebf7ec",
+      "text": "[production testing]\n>0%\n\n[development]\nlast 2 chrome version\nlast 2 firefox version\n"
+    },
+    {
+      "repo": "tmedwards/sugarcube-2",
+      "path": ".browserslistrc",
+      "url": "https://github.com/tmedwards/sugarcube-2/blob/HEAD/.browserslistrc",
+      "sha256": "538ca415ae1dcc2d5eb617d04b5413902e5b889461c7c2974018315f7fcc66b0",
+      "text": "# WARNING: The `defaults` query must be explicitly spelled out or various\n# plugins—e.g., `@babel/preset-env`—will not properly process the aggregate\n# query.\n\n> 1% or last 3 versions or last 10 Chrome versions or last 10 Firefox versions\n"
+    },
+    {
+      "repo": "wwwebman/gulp-webpack-starter",
+      "path": ".browserslistrc",
+      "url": "https://github.com/wwwebman/gulp-webpack-starter/blob/HEAD/.browserslistrc",
+      "sha256": "3b6d02b8ee0fbf88c00b253544f136c037c4df840d48a44b170cb3669f041277",
+      "text": "last 3 versions\n> 2%\n"
+    },
+    {
+      "repo": "arturmizz/vuent",
+      "path": ".browserslistrc",
+      "url": "https://github.com/arturmizz/vuent/blob/HEAD/.browserslistrc",
+      "sha256": "1ea03974b9f4c712a295da07d3e23fe302b0b0d8b6ebf518f2956b928269893b",
+      "text": "> 1%\nlast 2 versions\nChrome >= 49\nSafari >= 10.1\niOS >= 9.3\nFirefox >= 54\nFirefox ESR\nEdge >= 16\nOpera >= 54\nnot IE 11\nnot ie_mob 11\nnot and_qq 1.2\nnot baidu 7.12\nnot Android < 60\nnot OperaMini all\nnot dead\n"
+    },
+    {
+      "repo": "ibericode/mailchimp-for-wordpress",
+      "path": ".browserslistrc",
+      "url": "https://github.com/ibericode/mailchimp-for-wordpress/blob/HEAD/.browserslistrc",
+      "sha256": "d3724622cd741a0a5a603803026ddbaad5b9676b5f556a2bfbb0baaff46f5947",
+      "text": "# Browsers that we support\nextends @wordpress/browserslist-config\n"
+    },
+    {
+      "repo": "cycjimmy/jsmpeg-player",
+      "path": ".browserslistrc",
+      "url": "https://github.com/cycjimmy/jsmpeg-player/blob/HEAD/.browserslistrc",
+      "sha256": "24791dc61998bd8cc88d75f42535cf37723b873f9dde4526f3169ebe82ce20e5",
+      "text": "[production staging]\nie >= 10\nie_mob >= 10\nff >= 30\nchrome >= 40\nsafari >= 8\nopera >= 23\nios >= 8\nandroid >= 4.4\n\n[development]\nlast 2 versions\n"
+    },
+    {
+      "repo": "digital-analytics-program/gov-wide-code",
+      "path": ".browserslistrc",
+      "url": "https://github.com/digital-analytics-program/gov-wide-code/blob/HEAD/.browserslistrc",
+      "sha256": "36ebdcc8fae424920cacb71539b680c81ea25620dd80c23974de5ba79c75def2",
+      "text": "# Supported browsers\nlast 2 versions\nnot dead\n> 0.1%\nFirefox ESR"
+    },
+    {
+      "repo": "nateplusplus/pushin",
+      "path": ".browserslistrc",
+      "url": "https://github.com/nateplusplus/pushin/blob/HEAD/.browserslistrc",
+      "sha256": "60db41fc114030a5f4e4a3e5f4dc558ad93d411450cf9a67674507001c881178",
+      "text": "# Supported browsers\n\ndefaults\nlast 2 versions\nnot dead\n> 0.2%\nie > 10"
+    },
+    {
+      "repo": "MichealWayne/FundCharts",
+      "path": ".browserslistrc",
+      "url": "https://github.com/MichealWayne/FundCharts/blob/HEAD/.browserslistrc",
+      "sha256": "938c6b47aa275d235ed0573529c9d8117513661bf1d3a8d7c3674ec2208af79e",
+      "text": "# Browsers that we support \n# @document https://github.com/browserslist/browserslist\n\n> 1%\nlast 2 versions\niOS 9\nAndroid 4.4\n"
+    },
+    {
+      "repo": "infra-geo-ouverte/igo2",
+      "path": ".browserslistrc",
+      "url": "https://github.com/infra-geo-ouverte/igo2/blob/HEAD/.browserslistrc",
+      "sha256": "c54f21c3fee98af9849d1d96630e0dd7122b8184d358c46250b5fce100c23d68",
+      "text": "# This file is currently used by autoprefixer to adjust CSS to support the below specified browsers\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n# adjust as needed\ndefaults and fully supports es6-module\n"
+    },
+    {
+      "repo": "NSWGTP/nsw-design-system",
+      "path": ".browserslistrc",
+      "url": "https://github.com/NSWGTP/nsw-design-system/blob/HEAD/.browserslistrc",
+      "sha256": "d8ee46e47b32fe891b8a997d07e701034c9368bba391d5008790ffb265509fac",
+      "text": "# Browsers that we support - https://browserl.ist/?q=%3E+2%25%2C+last+2+version%2C+not+dead\n\n> 2%\nLast 2 versions\nnot dead\n"
+    },
+    {
+      "repo": "dequelabs/cauldron",
+      "path": ".browserslistrc",
+      "url": "https://github.com/dequelabs/cauldron/blob/HEAD/.browserslistrc",
+      "sha256": "1ffe61419390e8e47a62878e563ee04eca91575e6956bf1cff2ce9a39bab285d",
+      "text": "chrome 55\nfirefox 54"
+    },
+    {
+      "repo": "Endava/BEEQ",
+      "path": ".browserslistrc",
+      "url": "https://github.com/Endava/BEEQ/blob/HEAD/.browserslistrc",
+      "sha256": "93942d9f1ee73be528f443076c965a98112f7c314847752c1981291accefdbeb",
+      "text": "# Browsers we support\n# Details: https://browsersl.ist/#q=%3E0.2%25+or+last+2+major+versions\n\n>0.2% or last 2 major versions\n"
+    },
+    {
+      "repo": "niksy/node-stdlib-browser",
+      "path": ".browserslistrc",
+      "url": "https://github.com/niksy/node-stdlib-browser/blob/HEAD/.browserslistrc",
+      "sha256": "26070e731c0d64cb262ee61efdb0c2aa1ef673c3e276d9056648dab40401fc8b",
+      "text": "last 3 major versions\nsince 2019\nnot ie <= 10\n"
+    },
+    {
+      "repo": "wikimedia/mediawiki-extensions-MobileFrontend",
+      "path": ".browserslistrc",
+      "url": "https://github.com/wikimedia/mediawiki-extensions-MobileFrontend/blob/HEAD/.browserslistrc",
+      "sha256": "448d091adbb44f3a05b6e458fe1246bc936cd664e4de871937ad03a92dcd9c01",
+      "text": "# Browserslist configuration of browsers with basic level of support.\n# Please see https://www.mediawiki.org/wiki/Compatibility#Mobile and\n# https://gitlab.wikimedia.org/repos/ci-tools/browserslist-config-wikimedia\n# See also browsers definition in ResourceLoader startup module\n# in MediaWiki core 'resources/src/startup/startup.js'.\n\nextends browserslist-config-wikimedia/modern\n\n"
+    },
+    {
+      "repo": "TexteaInc/json-viewer",
+      "path": ".browserslistrc",
+      "url": "https://github.com/TexteaInc/json-viewer/blob/HEAD/.browserslistrc",
+      "sha256": "35bb8c29f3331edc546ea59649c29f7ec646a82b0db18b815faca5ce9100b726",
+      "text": "# sync with https://github.com/mui/material-ui/blob/v6.1.0/.browserslistrc#L17-L73\nand_chr 122\nand_chr 121\nand_ff 123\nand_ff 122\nand_qq 14.9\nand_uc 15.5\n# android 122\n# android 121\nchrome 122\nchrome 121\nchrome 120\nchrome 119\nchrome 109\nedge 122\nedge 121\nfirefox 123\nfirefox 122\nfirefox 115\nios_saf 17.4\nios_saf 17.3\nios_saf 17.2\nios_saf 17.1\nios_saf 17.0\nios_saf 16.6-16.7\nios_saf 16.5\nios_saf 16.4\nios_saf 16.3\nios_saf 16.2\nios_saf 16.1\nios_saf 16.0\nios_saf 15.6-15.8\nios_saf 15.5\nios_saf 15.4\nkaios 3.0-3.1\nkaios 2.5\nop_mini all\nop_mob 80\nopera 108\nopera 107\nopera 106\nsafari 17.4\nsafari 17.3\nsafari 17.2\nsafari 17.1\nsafari 17.0\nsafari 16.6\nsafari 16.5\nsafari 16.4\nsafari 16.3\nsafari 16.2\nsafari 16.1\nsafari 16.0\nsafari 15.6\nsafari 15.5\nsafari 15.4\nsamsung 23\nsamsung 22\n"
+    },
+    {
+      "repo": "doshidak/showdex",
+      "path": ".browserslistrc",
+      "url": "https://github.com/doshidak/showdex/blob/HEAD/.browserslistrc",
+      "sha256": "e65b0a3c2832f08ea86b70493966b8134afe2ac686b9253529d8ef4f06201a96",
+      "text": "# note: the following is basically `defaults`\n> 0.5%\nlast 2 versions\nlast 3 iOS versions\nFirefox ESR\nnot dead\n"
+    },
+    {
+      "repo": "shipshapecode/vue-shepherd",
+      "path": ".browserslistrc",
+      "url": "https://github.com/shipshapecode/vue-shepherd/blob/HEAD/.browserslistrc",
+      "sha256": "b8100a1fe3b92b8937af0877ef1a46d43bb0437240244891b6c49e0744ec55af",
+      "text": "current node\nlast 2 versions and > 2%\n"
+    },
+    {
+      "repo": "homeassistant-extras/room-summary-card",
+      "path": ".browserslistrc",
+      "url": "https://github.com/homeassistant-extras/room-summary-card/blob/HEAD/.browserslistrc",
+      "sha256": "2163d30f932d6ef310b1c08494ee6870d66304e7061f3d2ab3ef10715d8fcc1b",
+      "text": "# Support for older iPad Safari versions\n# iPad 1: iOS 3.2-5.1.1 (Safari 4-5)\n# iPad 2: iOS 4.3-9.3.5 (Safari 4-9)\n# Targeting iOS Safari 5+ for reasonable compatibility\n# Note: iPad 1 may have limited support due to missing Custom Elements API\nios_saf >= 5\n# Also include other modern browsers\nlast 2 versions\n> 0.5%\nnot dead\n"
+    },
+    {
+      "repo": "ninelines-team/ninelines-template",
+      "path": ".browserslistrc",
+      "url": "https://github.com/ninelines-team/ninelines-template/blob/HEAD/.browserslistrc",
+      "sha256": "8b73f0648827d9e07be3c416bb0395c173be6df3731c72764a1aef6b398272e1",
+      "text": "# Browsers that we support\n\nlast 5 version\n> 5%\nIE 10 # sorry\n"
+    },
+    {
+      "repo": "foray1010/Popup-my-Bookmarks",
+      "path": ".browserslistrc",
+      "url": "https://github.com/foray1010/Popup-my-Bookmarks/blob/HEAD/.browserslistrc",
+      "sha256": "6ce5796f8241e807fc4bdbeeceeb744e5b6441bafd282f6adabb682b37a8fd58",
+      "text": "chrome >= 111 and chrome <= 141\n"
+    },
+    {
+      "repo": "hypothesi/mcp-server-tauri",
+      "path": ".browserslistrc",
+      "url": "https://github.com/hypothesi/mcp-server-tauri/blob/HEAD/.browserslistrc",
+      "sha256": "8b7ece64f4b1ab2629846d91428c6c802120673b40a6484f8a50b51872a9174d",
+      "text": "# Browsers that we support\n# Based on Silvermine standards\n\nlast 2 versions\n> 1%\nnot dead\nnot ie <= 11\n"
+    },
+    {
+      "repo": "pagesource/atomic-react-components",
+      "path": ".browserslistrc",
+      "url": "https://github.com/pagesource/atomic-react-components/blob/HEAD/.browserslistrc",
+      "sha256": "6dcf0b8fb369540a53877c8d4e72007cc39a9c18ba58edcf37cd65693f665e44",
+      "text": "# Browsers that we support\n> 0.25%\nnot ie <= 11\nnot edge < 15\nnot op_mini all\nnot dead"
+    },
+    {
+      "repo": "mycolorway/tao_on_rails",
+      "path": ".browserslistrc",
+      "url": "https://github.com/mycolorway/tao_on_rails/blob/HEAD/.browserslistrc",
+      "sha256": "97f7984fe54b391903db781be361e4ae3bb74f2cdc4bbd6d8c26995ba2e11083",
+      "text": "last 2 major versions\n> 1% in CN\nchrome >= 57\nnot ie <= 11\nnot ie_mob <= 11\nnot dead"
+    },
+    {
+      "repo": "tomfong/simple-qr",
+      "path": ".browserslistrc",
+      "url": "https://github.com/tomfong/simple-qr/blob/HEAD/.browserslistrc",
+      "sha256": "57ff5531bf0f76af242ec6c71f60f773b4d3b2debb8232a3e9f657c4ea8f122a",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nChrome >=107\nChromeAndroid >=107\nFirefox >=104\nEdge >=107\nSafari >=16\niOS >=16"
+    },
+    {
+      "repo": "foundation/foundation-docs",
+      "path": ".browserslistrc",
+      "url": "https://github.com/foundation/foundation-docs/blob/HEAD/.browserslistrc",
+      "sha256": "137eed6ce480ca5bbeef1d7a7e7deb812ef5609d7dbd40c1a34252f37ef95a12",
+      "text": "# Browsers supported by Foundation\nlast 2 versions\n"
+    },
+    {
+      "repo": "ksky521/mpeditor",
+      "path": ".browserslistrc",
+      "url": "https://github.com/ksky521/mpeditor/blob/HEAD/.browserslistrc",
+      "sha256": "0103dbfec58a010ff2906a075b79b5323217f0dae8f4b65c97b8d658107016f3",
+      "text": "chrome >= 60\n"
+    },
+    {
+      "repo": "bitcrowd/tickety-tick",
+      "path": ".browserslistrc",
+      "url": "https://github.com/bitcrowd/tickety-tick/blob/HEAD/.browserslistrc",
+      "sha256": "490c7204c317372e6698615a512764a139ec2a23b55ae28a2769b7a5d2071a4c",
+      "text": "# browsers we support\n\nlast 2 chrome versions\nlast 2 firefox versions\nlast 2 opera versions\n"
+    },
+    {
+      "repo": "narmi/design_system",
+      "path": ".browserslistrc",
+      "url": "https://github.com/narmi/design_system/blob/HEAD/.browserslistrc",
+      "sha256": "4721e07d8d6be1c165292467edff6d103c579664888dc889b58455bfc1180708",
+      "text": "# Browsers officially supported by Narmi Design System\n\nlast 2 major versions\n> 5% in US\n\nnot IE > 0\nnot Opera > 0\nnot op_mob > 0\nnot op_mini all\nnot kaios > 0\nnot dead\n"
+    },
+    {
+      "repo": "PopupMaker/Popup-Maker",
+      "path": ".browserslistrc",
+      "url": "https://github.com/PopupMaker/Popup-Maker/blob/HEAD/.browserslistrc",
+      "sha256": "7e2efdaf5f6437f8fbc1e25f5e57dddeadfbe4b99faa62a02f165e2ecb205872",
+      "text": "extends @code-atlantic/browserslist-config\n"
+    },
+    {
+      "repo": "VladimirHumeniuk/gulp-boilerplate",
+      "path": " .browserslistrc",
+      "url": "https://github.com/VladimirHumeniuk/gulp-boilerplate/blob/HEAD/ .browserslistrc",
+      "sha256": "69e86e51a12af26b299a356a683898f9c28631547adc38e1fdc11f6fac9c3925",
+      "text": "# Browsers that we support\n\n> 1%\n"
+    },
+    {
+      "repo": "ProjectEvergreen/greenwood",
+      "path": ".browserslistrc",
+      "url": "https://github.com/ProjectEvergreen/greenwood/blob/HEAD/.browserslistrc",
+      "sha256": "1d60771f6c0a8894b3b5cf1927138378beee30d852013e075b7ea74869fffb4d",
+      "text": "> 1%\nnot op_mini all\nie 11"
+    },
+    {
+      "repo": "Morning-UI/morning-ui",
+      "path": ".browserslistrc",
+      "url": "https://github.com/Morning-UI/morning-ui/blob/HEAD/.browserslistrc",
+      "sha256": "c3a35437d6aa7720b97b14b6773287fafcb54f5fc3e50fc986a3bc1bfef5b14f",
+      "text": "# Browsers that we support\n\nChrome > 52\nFirefox > 55\nSafari >= 10"
+    },
+    {
+      "repo": "tlovett1/simple-cache",
+      "path": ".browserslistrc",
+      "url": "https://github.com/tlovett1/simple-cache/blob/HEAD/.browserslistrc",
+      "sha256": "e0cecdfbb6f6443970d5a18b203977f1cfce66f7b85f00b2f24e2dcf157aa613",
+      "text": "# Browsers that we support\n\n> 1%\nlast 2 versions\nFirefox ESR\nIE 11\n"
+    },
+    {
+      "repo": "Opetushallitus/koski",
+      "path": ".browserslistrc",
+      "url": "https://github.com/Opetushallitus/koski/blob/HEAD/.browserslistrc",
+      "sha256": "3890929c9975e22e7c98f75428520259f7e0a52aa5b0c8effa578940af916920",
+      "text": "# Chromen, Edgen, Firefoxin ja Safarin noin 30 viime kuukauden versiot\nbaseline widely available\n> 0.5% in FI\nfirefox esr\n# Chrome 138 on viimeinen versio Android 8:lle ja 9:lle. Raja annetaan\n# chrome-kyselynä, koska and_chr tuntee vain Androidin uusimman Chromen.\n# Käyttöosuus Suomessa n. 0,6 % (StatCounter 9/2026)\nchrome >= 138\n# iOS 15 on viimeinen versio iPhone 6s:lle, 7:lle ja 1. sukupolven SE:lle\n# Käyttöosuus Suomessa n. 0,2 % (StatCounter 9/2026)\nios_saf >= 15.6\n# Viimeiset versiot macOS 10.15 Catalinalle (Safari ja Chrome).\n# Firefox tukee Catalinaa yhä.\n# Käyttöosuus Suomessa n. 0,1 % (arvio Safari 15.6:n ja Chrome 128:n\n# osuudesta, caniuse-lite 1.0.30001812; StatCounter ei erota macOS-versioita)\nsafari >= 15.6\nchrome >= 128\n# Viimeiset versiot Windows 7/8.1:lle (Chrome, Edge ja Firefox)\n# Käyttöosuus Suomessa n. 0,05 % (StatCounter 9/2026)\nchrome >= 109\nedge >= 109\nfirefox >= 115\nnot dead\n"
+    },
+    {
+      "repo": "SanderElias/ngObservableForm",
+      "path": ".browserslistrc",
+      "url": "https://github.com/SanderElias/ngObservableForm/blob/HEAD/.browserslistrc",
+      "sha256": "0350325bfc06b8f9765086340f40967bd4d0bc757cc5b7113d0b06e41f06c3b7",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\n# Googlebot uses an older version of Chrome\n# For additional information see: https://developers.google.com/search/docs/guides/rendering\n\nlast 2 versions\nnot < 5%\nnot IE > 0\nlast 2 firefox versions\n"
+    },
+    {
+      "repo": "zeldamods/objmap-totk",
+      "path": ".browserslistrc",
+      "url": "https://github.com/zeldamods/objmap-totk/blob/HEAD/.browserslistrc",
+      "sha256": "7371de79d4af66c0e9b2f796ba9face476fd158a9910fcf3c5300ff12be04e75",
+      "text": "last 2 versions\n>1%\nnot ie <= 11\nnot op_mini all\n"
+    },
+    {
+      "repo": "tsparticles/tsparticles",
+      "path": "palettes/atmospheric/lightning/.browserslistrc",
+      "url": "https://github.com/tsparticles/tsparticles/blob/HEAD/palettes/atmospheric/lightning/.browserslistrc",
+      "sha256": "5398a21d16dbfd53eaaf7920537e01e53ed7cd996eab8aba416aa9bcd06092c2",
+      "text": "extends @tsparticles/browserslist-config\n"
+    },
+    {
+      "repo": "oroinc/platform-application",
+      "path": ".browserslistrc",
+      "url": "https://github.com/oroinc/platform-application/blob/HEAD/.browserslistrc",
+      "sha256": "63398490713bd6a251766055156593b47494ef9ef181b5bdabae8e3c206bc6ea",
+      "text": "> .5% and not IE 11 or last 1 firefox version\n> .5% and not IE 11 or last 1 chrome version\n> .5% and not IE 11 or last 1 edge version\n> .5% and not IE 11 or last 1 safari version\n> .5% and not IE 11 or last 1 iOS version\n"
+    },
+    {
+      "repo": "raodv/captcha",
+      "path": "view/angular/.browserslistrc",
+      "url": "https://github.com/raodv/captcha/blob/HEAD/view/angular/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "advanced-cropper/react-advanced-cropper",
+      "path": ".browserslistrc",
+      "url": "https://github.com/advanced-cropper/react-advanced-cropper/blob/HEAD/.browserslistrc",
+      "sha256": "df96583c5bcde806ddeb9c3ed52ec84dd603a31b55b3dd16a97bec502c0f83f3",
+      "text": "> 1%\nlast 2 versions\nFirefox ESR\nie >= 11\n"
+    },
+    {
+      "repo": "onflow/fcl-js",
+      "path": "packages/protobuf/.browserslistrc",
+      "url": "https://github.com/onflow/fcl-js/blob/HEAD/packages/protobuf/.browserslistrc",
+      "sha256": "d30d864967418cba7df37d340cde58974317edf5b571cbb10209aedfd6c33164",
+      "text": "defaults and supports es6-module\nmaintained node versions\n"
+    },
+    {
+      "repo": "pd4d10/bytemd",
+      "path": "examples/vue/.browserslistrc",
+      "url": "https://github.com/pd4d10/bytemd/blob/HEAD/examples/vue/.browserslistrc",
+      "sha256": "090642394a16d771ce319185924472eccac85239e3d3e6fd10f705138e1b430f",
+      "text": "> 1%\nlast 2 versions\nnot dead\n"
+    },
+    {
+      "repo": "the-events-calendar/event-tickets",
+      "path": ".browserslistrc",
+      "url": "https://github.com/the-events-calendar/event-tickets/blob/HEAD/.browserslistrc",
+      "sha256": "3fafd86239b84ef31fc744eb48990b67ec84c65bcf92b6ae81db3d6ee6cd21d1",
+      "text": "last 2 Chrome versions\nlast 2 Firefox versions\nlast 2 Safari versions\nlast 2 Edge versions\nlast 2 Opera versions\nlast 2 iOS versions\nlast 1 Android version\nlast 1 ChromeAndroid version\nlast 1 FirefoxAndroid version\n> 1%, not op_mini all, not ie <= 11, not ie_mob <= 11\n"
+    },
+    {
+      "repo": "the-events-calendar/tribe-common",
+      "path": ".browserslistrc",
+      "url": "https://github.com/the-events-calendar/tribe-common/blob/HEAD/.browserslistrc",
+      "sha256": "3fafd86239b84ef31fc744eb48990b67ec84c65bcf92b6ae81db3d6ee6cd21d1",
+      "text": "last 2 Chrome versions\nlast 2 Firefox versions\nlast 2 Safari versions\nlast 2 Edge versions\nlast 2 Opera versions\nlast 2 iOS versions\nlast 1 Android version\nlast 1 ChromeAndroid version\nlast 1 FirefoxAndroid version\n> 1%, not op_mini all, not ie <= 11, not ie_mob <= 11\n"
+    },
+    {
+      "repo": "dessant/clear-browsing-data",
+      "path": ".browserslistrc",
+      "url": "https://github.com/dessant/clear-browsing-data/blob/HEAD/.browserslistrc",
+      "sha256": "0d6070deb5da00eb907532cd84b246b32414c682b569b8258bf842287747000e",
+      "text": "[chrome]\nChrome >= 123\nEdge >= 123\nOpera >= 109\n\n[edge]\nEdge >= 123\n\n[firefox]\nFirefox >= 115\n\n[opera]\nOpera >= 109\n"
+    },
+    {
+      "repo": "rikschennink/short-and-sweet",
+      "path": ".browserslistrc",
+      "url": "https://github.com/rikschennink/short-and-sweet/blob/HEAD/.browserslistrc",
+      "sha256": "0c8dcface39d2d04416e6ddaf786bb5f9397fd7b6cc38dc18a143d6d1cc6c46c",
+      "text": "last 2 versions\n> 0.5%\nie >= 10"
+    },
+    {
+      "repo": "sinonjs/nise",
+      "path": ".browserslistrc",
+      "url": "https://github.com/sinonjs/nise/blob/HEAD/.browserslistrc",
+      "sha256": "bd9bd87eeec73e5fb751ef2f5cde678f6ecff7e79232e9333ffa713f73acf4ac",
+      "text": "> 0.5%\nlast 2 versions\nFirefox ESR\nnot dead\nnot IE 11\nnot op_mini all\nmaintained node versions\n"
+    },
+    {
+      "repo": "zhufengpeixun/vue-train",
+      "path": "day-2/.browserslistrc",
+      "url": "https://github.com/zhufengpeixun/vue-train/blob/HEAD/day-2/.browserslistrc",
+      "sha256": "ec9cbdc1453c94851e838ee511cc45e0e865d8f334040f78158028dd2184cdaa",
+      "text": "> 1%\nlast 2 versions\n"
+    },
+    {
+      "repo": "sinonjs/referee",
+      "path": ".browserslistrc",
+      "url": "https://github.com/sinonjs/referee/blob/HEAD/.browserslistrc",
+      "sha256": "bd9bd87eeec73e5fb751ef2f5cde678f6ecff7e79232e9333ffa713f73acf4ac",
+      "text": "> 0.5%\nlast 2 versions\nFirefox ESR\nnot dead\nnot IE 11\nnot op_mini all\nmaintained node versions\n"
+    },
+    {
+      "repo": "sinonjs/samsam",
+      "path": ".browserslistrc",
+      "url": "https://github.com/sinonjs/samsam/blob/HEAD/.browserslistrc",
+      "sha256": "bd9bd87eeec73e5fb751ef2f5cde678f6ecff7e79232e9333ffa713f73acf4ac",
+      "text": "> 0.5%\nlast 2 versions\nFirefox ESR\nnot dead\nnot IE 11\nnot op_mini all\nmaintained node versions\n"
+    },
+    {
+      "repo": "cycjimmy/swiper-animation",
+      "path": ".browserslistrc",
+      "url": "https://github.com/cycjimmy/swiper-animation/blob/HEAD/.browserslistrc",
+      "sha256": "24791dc61998bd8cc88d75f42535cf37723b873f9dde4526f3169ebe82ce20e5",
+      "text": "[production staging]\nie >= 10\nie_mob >= 10\nff >= 30\nchrome >= 40\nsafari >= 8\nopera >= 23\nios >= 8\nandroid >= 4.4\n\n[development]\nlast 2 versions\n"
+    },
+    {
+      "repo": "Apress/pro-angular-9",
+      "path": "Update for Angular 10/Chapter 08/SportsStore/.browserslistrc",
+      "url": "https://github.com/Apress/pro-angular-9/blob/HEAD/Update for Angular 10/Chapter 08/SportsStore/.browserslistrc",
+      "sha256": "18cdef42c3d9984e5e4edf06226db9c6ae2425b2b4beb185c6568ab74d12e77c",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major version\nlast 2 iOS major versions\nFirefox ESR\nnot IE 9-11 # For IE 9-11 support, remove 'not'.\n"
+    },
+    {
+      "repo": "broadinstitute/gnomad-browser-toolkit",
+      "path": ".browserslistrc",
+      "url": "https://github.com/broadinstitute/gnomad-browser-toolkit/blob/HEAD/.browserslistrc",
+      "sha256": "d675e69a49023d53e9b65a741b3f6c0eed8fe5fa32182dcb95dcbcbd4b10882c",
+      "text": "last 2 versions\nie >= 10\n"
+    },
+    {
+      "repo": "cycjimmy/h5-video-player",
+      "path": ".browserslistrc",
+      "url": "https://github.com/cycjimmy/h5-video-player/blob/HEAD/.browserslistrc",
+      "sha256": "24791dc61998bd8cc88d75f42535cf37723b873f9dde4526f3169ebe82ce20e5",
+      "text": "[production staging]\nie >= 10\nie_mob >= 10\nff >= 30\nchrome >= 40\nsafari >= 8\nopera >= 23\nios >= 8\nandroid >= 4.4\n\n[development]\nlast 2 versions\n"
+    },
+    {
+      "repo": "findify/findify-js",
+      "path": ".browserslistrc",
+      "url": "https://github.com/findify/findify-js/blob/HEAD/.browserslistrc",
+      "sha256": "d675e69a49023d53e9b65a741b3f6c0eed8fe5fa32182dcb95dcbcbd4b10882c",
+      "text": "last 2 versions\nie >= 10\n"
+    },
+    {
+      "repo": "effector/farfetched",
+      "path": "apps/showcase-react-real-world-pokemons/.browserslistrc",
+      "url": "https://github.com/effector/farfetched/blob/HEAD/apps/showcase-react-real-world-pokemons/.browserslistrc",
+      "sha256": "214ca160071ff4343c827710dc2ba55628b59d519241b66e5c78ef7795ad2241",
+      "text": "# This file is used by:\n# 1. autoprefixer to adjust CSS to support the below specified browsers\n# 2. babel preset-env to adjust included polyfills\n#\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n#\n# If you need to support different browsers in production, you may tweak the list below.\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major version\nlast 2 iOS major versions\nFirefox ESR\nnot IE 9-11 # For IE 9-11 support, remove 'not'."
+    },
+    {
+      "repo": "usdoj-crt/crt-portal",
+      "path": ".browserslistrc",
+      "url": "https://github.com/usdoj-crt/crt-portal/blob/HEAD/.browserslistrc",
+      "sha256": "33e1dcfa1aa334f02da698feaff984b0c03d514423181dfe962a57c7a491a171",
+      "text": "# Supported browsers\n> 2%\nlast 2 versions\nIE 11\nnot dead"
+    },
+    {
+      "repo": "advanced-cropper/react-mobile-cropper",
+      "path": ".browserslistrc",
+      "url": "https://github.com/advanced-cropper/react-mobile-cropper/blob/HEAD/.browserslistrc",
+      "sha256": "df96583c5bcde806ddeb9c3ed52ec84dd603a31b55b3dd16a97bec502c0f83f3",
+      "text": "> 1%\nlast 2 versions\nFirefox ESR\nie >= 11\n"
+    },
+    {
+      "repo": "tytusdb/tytusdb",
+      "path": "client/team11/tytusweb/.browserslistrc",
+      "url": "https://github.com/tytusdb/tytusdb/blob/HEAD/client/team11/tytusweb/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "code-atlantic/content-control",
+      "path": ".browserslistrc",
+      "url": "https://github.com/code-atlantic/content-control/blob/HEAD/.browserslistrc",
+      "sha256": "7e2efdaf5f6437f8fbc1e25f5e57dddeadfbe4b99faa62a02f165e2ecb205872",
+      "text": "extends @code-atlantic/browserslist-config\n"
+    },
+    {
+      "repo": "oroinc/orocommerce-application-de",
+      "path": ".browserslistrc",
+      "url": "https://github.com/oroinc/orocommerce-application-de/blob/HEAD/.browserslistrc",
+      "sha256": "63398490713bd6a251766055156593b47494ef9ef181b5bdabae8e3c206bc6ea",
+      "text": "> .5% and not IE 11 or last 1 firefox version\n> .5% and not IE 11 or last 1 chrome version\n> .5% and not IE 11 or last 1 edge version\n> .5% and not IE 11 or last 1 safari version\n> .5% and not IE 11 or last 1 iOS version\n"
+    },
+    {
+      "repo": "Stardev1127/bue-shop",
+      "path": " .browserslistrc",
+      "url": "https://github.com/Stardev1127/bue-shop/blob/HEAD/ .browserslistrc",
+      "sha256": "943e8ae9368f291e0797e0ba1d2a5ec6f84496a6c2786d7e672286ab7c8faa71",
+      "text": "> 1%\nnot dead"
+    },
+    {
+      "repo": "davidnbooth/html3pdf.js",
+      "path": ".browserslistrc",
+      "url": "https://github.com/davidnbooth/html3pdf.js/blob/HEAD/.browserslistrc",
+      "sha256": "41a55c82a0447279327dba6af5ff5d9d2f6cb7bd2d90907d10f6069f708f3f95",
+      "text": "last 1 version\n> 1%\nIE >= 9\n"
+    },
+    {
+      "repo": "tlovett1/wp-media-pro",
+      "path": ".browserslistrc",
+      "url": "https://github.com/tlovett1/wp-media-pro/blob/HEAD/.browserslistrc",
+      "sha256": "e0cecdfbb6f6443970d5a18b203977f1cfce66f7b85f00b2f24e2dcf157aa613",
+      "text": "# Browsers that we support\n\n> 1%\nlast 2 versions\nFirefox ESR\nIE 11\n"
+    },
+    {
+      "repo": "ya-live/ya-live",
+      "path": ".browserslistrc",
+      "url": "https://github.com/ya-live/ya-live/blob/HEAD/.browserslistrc",
+      "sha256": "0df2f4d194f4cd94733e346a13fdeab4602280fb34261118a544e58d2cbdfc0a",
+      "text": "defaults\nnot dead"
+    },
+    {
+      "repo": "inlinejs/inline",
+      "path": ".browserslistrc",
+      "url": "https://github.com/inlinejs/inline/blob/HEAD/.browserslistrc",
+      "sha256": "863a238c1f54e77c562a9e1f55b06b7f0e0c9d42c08065e5cd1335565c5c86dd",
+      "text": "last 2 Chrome major versions\nlast 2 Firefox major versions\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nlast 2 ChromeAndroid versions\nlast 2 FirefoxAndroid versions\nlast 2 Samsung versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "cycjimmy/weixin-share",
+      "path": ".browserslistrc",
+      "url": "https://github.com/cycjimmy/weixin-share/blob/HEAD/.browserslistrc",
+      "sha256": "24791dc61998bd8cc88d75f42535cf37723b873f9dde4526f3169ebe82ce20e5",
+      "text": "[production staging]\nie >= 10\nie_mob >= 10\nff >= 30\nchrome >= 40\nsafari >= 8\nopera >= 23\nios >= 8\nandroid >= 4.4\n\n[development]\nlast 2 versions\n"
+    },
+    {
+      "repo": "keyzf/see-h5-editor",
+      "path": ".browserslistrc",
+      "url": "https://github.com/keyzf/see-h5-editor/blob/HEAD/.browserslistrc",
+      "sha256": "f9653fa5b5beafb114eb980c65777a0783a385701c21c81a0fd7e9da4bcb8e1f",
+      "text": "> 1%\nlast 2 versions\nandroid >= 4.4\n"
+    },
+    {
+      "repo": "TamuGeoInnovation/Tamu.GeoInnovation.js.monorepo",
+      "path": "apps/aggiemap-angular/.browserslistrc",
+      "url": "https://github.com/TamuGeoInnovation/Tamu.GeoInnovation.js.monorepo/blob/HEAD/apps/aggiemap-angular/.browserslistrc",
+      "sha256": "40f373a8da28d36983f71c721de2f042021db798dfc2e0d0792085b854f42700",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 3 Safari major versions\nlast 3 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line."
+    },
+    {
+      "repo": "web-infra-dev/web-infra-QoS",
+      "path": "cases/modernjs-framework/app-ssr/.browserslistrc",
+      "url": "https://github.com/web-infra-dev/web-infra-QoS/blob/HEAD/cases/modernjs-framework/app-ssr/.browserslistrc",
+      "sha256": "0e3ec56d832fc28471b29cc7c545fa0a048f97432114a4b77b6a04d281237d33",
+      "text": "chrome >= 51\nedge >= 15\nfirefox >= 54\nsafari >= 10\nios_saf >= 10\n"
+    },
+    {
+      "repo": "Syrex-o/FhemNative",
+      "path": "apps/fhem-native/.browserslistrc",
+      "url": "https://github.com/Syrex-o/FhemNative/blob/HEAD/apps/fhem-native/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "tonylawx/vue-app",
+      "path": ".browserslistrc",
+      "url": "https://github.com/tonylawx/vue-app/blob/HEAD/.browserslistrc",
+      "sha256": "5ddb35c10b481673fbde52275b983ed053b49e947eaa5524932e29b65cb0c97e",
+      "text": "> 1%\nlast 2 versions\nnot ie <= 8\n\nAndroid >= 4.0\n"
+    },
+    {
+      "repo": "huangjincq/see-h5-editor",
+      "path": ".browserslistrc",
+      "url": "https://github.com/huangjincq/see-h5-editor/blob/HEAD/.browserslistrc",
+      "sha256": "f9653fa5b5beafb114eb980c65777a0783a385701c21c81a0fd7e9da4bcb8e1f",
+      "text": "> 1%\nlast 2 versions\nandroid >= 4.4\n"
+    },
+    {
+      "repo": "cuixiaorui/course-vue3-test",
+      "path": "example/twelve/.browserslistrc",
+      "url": "https://github.com/cuixiaorui/course-vue3-test/blob/HEAD/example/twelve/.browserslistrc",
+      "sha256": "090642394a16d771ce319185924472eccac85239e3d3e6fd10f705138e1b430f",
+      "text": "> 1%\nlast 2 versions\nnot dead\n"
+    },
+    {
+      "repo": "kylewetton/Minibox",
+      "path": "__.browserslistrc",
+      "url": "https://github.com/kylewetton/Minibox/blob/HEAD/__.browserslistrc",
+      "sha256": "6fe8a65348d24beb2c86c362cf5507c9aaacfed457ec4150e15761e0359f2cf8",
+      "text": "[production staging]\n>5%\nlast 2 versions\nFirefox ESR\nnot ie < 11\n\n[development]\nlast 1 chrome version\nlast 1 firefox version\nlast 1 edge version\n"
+    },
+    {
+      "repo": "hugerte/hugerte-angular",
+      "path": ".browserslistrc",
+      "url": "https://github.com/hugerte/hugerte-angular/blob/HEAD/.browserslistrc",
+      "sha256": "fed60342a5253300312b7c54315addee9e822e6c6265a7908b24e7528fa24fd9",
+      "text": ">0.2%\nnot dead\nnot ie > 0\nnot op_mini all\n"
+    },
+    {
+      "repo": "vinnie291/sunnylink-wiki",
+      "path": ".browserslistrc",
+      "url": "https://github.com/vinnie291/sunnylink-wiki/blob/HEAD/.browserslistrc",
+      "sha256": "3bfde2354cef1a3d63456196000cdeaa2666ce88c247aaae5e80c015f96482e4",
+      "text": "chrome >= 109\nfirefox >= 109\nsafari >= 16.4\nedge >= 109\n"
+    },
+    {
+      "repo": "alanquillin/brewhouse-manager",
+      "path": "ui/.browserslistrc",
+      "url": "https://github.com/alanquillin/brewhouse-manager/blob/HEAD/ui/.browserslistrc",
+      "sha256": "e7c7f57d529f39fa6a03114f3d75208d797ec2110739603b1ce20743c389d649",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\n#last 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11"
+    },
+    {
+      "repo": "miniTalDev/ng-devui",
+      "path": ".browserslistrc",
+      "url": "https://github.com/miniTalDev/ng-devui/blob/HEAD/.browserslistrc",
+      "sha256": "61feedf803a91c894062ccd5421fb52640d9ddd7f106f9d08841846241386d4e",
+      "text": "# This file is currently used by autoprefixer to adjust CSS to support the below specified browsers\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n#\n\n> 0.5%\nlast 2 versions\nlast 2 Edge major versions\nFirefox ESR\nnot dead\n"
+    },
+    {
+      "repo": "eclectic-bytech/webcourses-ngx-v4",
+      "path": "resources/webcourses/.browserslistrc",
+      "url": "https://github.com/eclectic-bytech/webcourses-ngx-v4/blob/HEAD/resources/webcourses/.browserslistrc",
+      "sha256": "67d12742e9841a68cb9028171fc93806f1c7c752e7f4e43be69ce691e7a10a80",
+      "text": "# This file is currently used by autoprefixer to adjust CSS to support the below specified browsers\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n#\n# For IE 9-11 support, please remove 'not' from the last line of the file and adjust as needed\n\n> 0.5%\nlast 2 versions\nFirefox ESR\nnot dead\nnot IE 9-11"
+    },
+    {
+      "repo": "cycjimmy/h5-pages",
+      "path": ".browserslistrc",
+      "url": "https://github.com/cycjimmy/h5-pages/blob/HEAD/.browserslistrc",
+      "sha256": "24791dc61998bd8cc88d75f42535cf37723b873f9dde4526f3169ebe82ce20e5",
+      "text": "[production staging]\nie >= 10\nie_mob >= 10\nff >= 30\nchrome >= 40\nsafari >= 8\nopera >= 23\nios >= 8\nandroid >= 4.4\n\n[development]\nlast 2 versions\n"
+    },
+    {
+      "repo": "matchboxdesigngroup/matchbox-fire-protection",
+      "path": ".browserslistrc",
+      "url": "https://github.com/matchboxdesigngroup/matchbox-fire-protection/blob/HEAD/.browserslistrc",
+      "sha256": "e0cecdfbb6f6443970d5a18b203977f1cfce66f7b85f00b2f24e2dcf157aa613",
+      "text": "# Browsers that we support\n\n> 1%\nlast 2 versions\nFirefox ESR\nIE 11\n"
+    },
+    {
+      "repo": "lijinrong/own-quark-h5",
+      "path": ".browserslistrc",
+      "url": "https://github.com/lijinrong/own-quark-h5/blob/HEAD/.browserslistrc",
+      "sha256": "f9653fa5b5beafb114eb980c65777a0783a385701c21c81a0fd7e9da4bcb8e1f",
+      "text": "> 1%\nlast 2 versions\nandroid >= 4.4\n"
+    },
+    {
+      "repo": "jedd-s/wk",
+      "path": "_.browserslistrc",
+      "url": "https://github.com/jedd-s/wk/blob/HEAD/_.browserslistrc",
+      "sha256": "98dc1682d4e4c20c160ba76a5b0d2d4ec6f71364d39952ce5a49aec9779594c4",
+      "text": "defaults\nnot IE 11"
+    },
+    {
+      "repo": "issue9/cmfx",
+      "path": ".browserslistrc",
+      "url": "https://github.com/issue9/cmfx/blob/HEAD/.browserslistrc",
+      "sha256": "488bc663408a37d060fb5a44980e7790ff0c067dd789c3b4133ba04fd5425c0e",
+      "text": "# SPDX-FileCopyrightText: 2024-2026 caixw\n#\n# SPDX-License-Identifier: MIT\n\n# tsconfig 中的 target 只是 typescript 的配置，与编译结果无关。\n# 编译结果 (js,css) 由此文件决定。\n\nbaseline 2025\n"
+    },
+    {
+      "repo": "chantouchsek/html2pdf-js",
+      "path": ".browserslistrc",
+      "url": "https://github.com/chantouchsek/html2pdf-js/blob/HEAD/.browserslistrc",
+      "sha256": "41a55c82a0447279327dba6af5ff5d9d2f6cb7bd2d90907d10f6069f708f3f95",
+      "text": "last 1 version\n> 1%\nIE >= 9\n"
+    },
+    {
+      "repo": "Mearytt/section-engineering-education",
+      "path": ".browserslistrc",
+      "url": "https://github.com/Mearytt/section-engineering-education/blob/HEAD/.browserslistrc",
+      "sha256": "1de5f963a442fe8a793a1e21921d4786e16a9f35f74386908ffc9412024c1ab6",
+      "text": "# Browsers that we support\n\nlast 2 versions\n> 1%\nnot dead\n"
+    },
+    {
+      "repo": "StilesZ/shida",
+      "path": ".browserslistrc",
+      "url": "https://github.com/StilesZ/shida/blob/HEAD/.browserslistrc",
+      "sha256": "f9653fa5b5beafb114eb980c65777a0783a385701c21c81a0fd7e9da4bcb8e1f",
+      "text": "> 1%\nlast 2 versions\nandroid >= 4.4\n"
+    },
+    {
+      "repo": "ICJIA/icjia-public-client-2021",
+      "path": ".browserslistrc",
+      "url": "https://github.com/ICJIA/icjia-public-client-2021/blob/HEAD/.browserslistrc",
+      "sha256": "5026f0417778b2f09606ada457ea0c771789a45c452ba6422e6b483890ce06a7",
+      "text": "last 2 years"
+    },
+    {
+      "repo": "nerdyman/react-typescript-graphql-github-api-demo",
+      "path": ".browserslistrc",
+      "url": "https://github.com/nerdyman/react-typescript-graphql-github-api-demo/blob/HEAD/.browserslistrc",
+      "sha256": "fed60342a5253300312b7c54315addee9e822e6c6265a7908b24e7528fa24fd9",
+      "text": ">0.2%\nnot dead\nnot ie > 0\nnot op_mini all\n"
+    },
+    {
+      "repo": "X-oss-byte/Vie-shepherds",
+      "path": ".browserslistrc",
+      "url": "https://github.com/X-oss-byte/Vie-shepherds/blob/HEAD/.browserslistrc",
+      "sha256": "b8100a1fe3b92b8937af0877ef1a46d43bb0437240244891b6c49e0744ec55af",
+      "text": "current node\nlast 2 versions and > 2%\n"
+    },
+    {
+      "repo": "deepin-community/node-sinon",
+      "path": ".browserslistrc",
+      "url": "https://github.com/deepin-community/node-sinon/blob/HEAD/.browserslistrc",
+      "sha256": "bd9bd87eeec73e5fb751ef2f5cde678f6ecff7e79232e9333ffa713f73acf4ac",
+      "text": "> 0.5%\nlast 2 versions\nFirefox ESR\nnot dead\nnot IE 11\nnot op_mini all\nmaintained node versions\n"
+    },
+    {
+      "repo": "base2cloud/metamask-extension",
+      "path": ".browserslistrc",
+      "url": "https://github.com/base2cloud/metamask-extension/blob/HEAD/.browserslistrc",
+      "sha256": "950586abf89864126f25ee0934387e33c4600dc091b76b176b0480c55350323d",
+      "text": "chrome >= 123, firefox >= 128\n"
+    },
+    {
+      "repo": "Norserium/vue-advanced-forms",
+      "path": ".browserslistrc",
+      "url": "https://github.com/Norserium/vue-advanced-forms/blob/HEAD/.browserslistrc",
+      "sha256": "df96583c5bcde806ddeb9c3ed52ec84dd603a31b55b3dd16a97bec502c0f83f3",
+      "text": "> 1%\nlast 2 versions\nFirefox ESR\nie >= 11\n"
+    },
+    {
+      "repo": "codytradedesignsf-blip/redesigned-disco",
+      "path": ".browserslistrc",
+      "url": "https://github.com/codytradedesignsf-blip/redesigned-disco/blob/HEAD/.browserslistrc",
+      "sha256": "16b97de39d416b3bd40b2b5c665f921a87657b63b800986817945f54abb3797b",
+      "text": "last 2 versions\nFirefox ESR\nnot dead\nnot IE 11\nnot ios 10\n"
+    },
+    {
+      "repo": "zochunhua8/mapbox-gl-js",
+      "path": ".browserslistrc",
+      "url": "https://github.com/zochunhua8/mapbox-gl-js/blob/HEAD/.browserslistrc",
+      "sha256": "149cc2ffcddfe19bab66338895b1137a7855df90a0b9298ccf16f3a149067f56",
+      "text": "# Mapbox GL JS - Supported Browsers\n# ==================================\n# Static list based on required features:\n#   - WebGL 2\n#   - Worker type:'module'\n#   - Promise.allSettled\n#   - Object.hasOwn\n#   - Array.at\n#   - async/await\n#   - AbortSignal.throwIfAborted()\n#\n#   Browser        | Limiting Feature          | Min\n#   ---------------|---------------------------|----\n#   Chrome         | AbortSignal.throwIfAborted() | 100\n#   Safari         | Array.at                  | 15.4\n#   Firefox        | Object.hasOwn             | 115\n#   Edge           | AbortSignal.throwIfAborted() | 100\n#   Chrome Android | AbortSignal.throwIfAborted() | 100\n#   iOS Safari     | Array.at                  | 15.4\n\nchrome >= 100\nsafari >= 15.4\nfirefox >= 115\nedge >= 100\nand_chr >= 100\nios_saf >= 15.4\n"
+    },
+    {
+      "repo": "NeverMin/mpeditor",
+      "path": ".browserslistrc",
+      "url": "https://github.com/NeverMin/mpeditor/blob/HEAD/.browserslistrc",
+      "sha256": "0103dbfec58a010ff2906a075b79b5323217f0dae8f4b65c97b8d658107016f3",
+      "text": "chrome >= 60\n"
+    },
+    {
+      "repo": "eKoopmans/pdftest",
+      "path": ".browserslistrc",
+      "url": "https://github.com/eKoopmans/pdftest/blob/HEAD/.browserslistrc",
+      "sha256": "41a55c82a0447279327dba6af5ff5d9d2f6cb7bd2d90907d10f6069f708f3f95",
+      "text": "last 1 version\n> 1%\nIE >= 9\n"
+    },
+    {
+      "repo": "cybermaker/wazuh",
+      "path": ".browserslistrc",
+      "url": "https://github.com/cybermaker/wazuh/blob/HEAD/.browserslistrc",
+      "sha256": "dd0cb92082774022f9c6fe6274f6b7bf02c7cfa9fe18d3c3f265fe0a0ceead1e",
+      "text": "[production]\nFirefox > 0 and last 2 years and > 0.01%\nChrome > 0 and last 2 years and > 0.01%\nSafari > 0 and last 2 years and > 0.01%\nEdge > 0 and last 1 years and > 0.01%\nOpera > 0 and last 2 years and > 0.01%\n> 0.2%\nnot op_mini all\nnot and_uc < 100\nnot android < 100\nnot dead\n\n[dev]\nlast 1 chrome versions\nlast 1 firefox versions\nlast 1 safari versions\n"
+    },
+    {
+      "repo": "ccbruce-kag/mizts-dashboard",
+      "path": ".browserslistrc",
+      "url": "https://github.com/ccbruce-kag/mizts-dashboard/blob/HEAD/.browserslistrc",
+      "sha256": "dd0cb92082774022f9c6fe6274f6b7bf02c7cfa9fe18d3c3f265fe0a0ceead1e",
+      "text": "[production]\nFirefox > 0 and last 2 years and > 0.01%\nChrome > 0 and last 2 years and > 0.01%\nSafari > 0 and last 2 years and > 0.01%\nEdge > 0 and last 1 years and > 0.01%\nOpera > 0 and last 2 years and > 0.01%\n> 0.2%\nnot op_mini all\nnot and_uc < 100\nnot android < 100\nnot dead\n\n[dev]\nlast 1 chrome versions\nlast 1 firefox versions\nlast 1 safari versions\n"
+    },
+    {
+      "repo": "KeiosStarqua/buster",
+      "path": ".browserslistrc",
+      "url": "https://github.com/KeiosStarqua/buster/blob/HEAD/.browserslistrc",
+      "sha256": "0d6070deb5da00eb907532cd84b246b32414c682b569b8258bf842287747000e",
+      "text": "[chrome]\nChrome >= 123\nEdge >= 123\nOpera >= 109\n\n[edge]\nEdge >= 123\n\n[firefox]\nFirefox >= 115\n\n[opera]\nOpera >= 109\n"
+    },
+    {
+      "repo": "PrinceSajjadHussain/captcha-verification",
+      "path": ".browserslistrc",
+      "url": "https://github.com/PrinceSajjadHussain/captcha-verification/blob/HEAD/.browserslistrc",
+      "sha256": "0d6070deb5da00eb907532cd84b246b32414c682b569b8258bf842287747000e",
+      "text": "[chrome]\nChrome >= 123\nEdge >= 123\nOpera >= 109\n\n[edge]\nEdge >= 123\n\n[firefox]\nFirefox >= 115\n\n[opera]\nOpera >= 109\n"
+    },
+    {
+      "repo": "MasterKN48/Let-s-Solve-Captcha",
+      "path": ".browserslistrc",
+      "url": "https://github.com/MasterKN48/Let-s-Solve-Captcha/blob/HEAD/.browserslistrc",
+      "sha256": "0d6070deb5da00eb907532cd84b246b32414c682b569b8258bf842287747000e",
+      "text": "[chrome]\nChrome >= 123\nEdge >= 123\nOpera >= 109\n\n[edge]\nEdge >= 123\n\n[firefox]\nFirefox >= 115\n\n[opera]\nOpera >= 109\n"
+    },
+    {
+      "repo": "BigBuildBench/niksy_node-stdlib-browser",
+      "path": ".browserslistrc",
+      "url": "https://github.com/BigBuildBench/niksy_node-stdlib-browser/blob/HEAD/.browserslistrc",
+      "sha256": "26070e731c0d64cb262ee61efdb0c2aa1ef673c3e276d9056648dab40401fc8b",
+      "text": "last 3 major versions\nsince 2019\nnot ie <= 10\n"
+    },
+    {
+      "repo": "larowlan/nsw-design-system-docs",
+      "path": ".browserslistrc",
+      "url": "https://github.com/larowlan/nsw-design-system-docs/blob/HEAD/.browserslistrc",
+      "sha256": "d8ee46e47b32fe891b8a997d07e701034c9368bba391d5008790ffb265509fac",
+      "text": "# Browsers that we support - https://browserl.ist/?q=%3E+2%25%2C+last+2+version%2C+not+dead\n\n> 2%\nLast 2 versions\nnot dead\n"
+    },
+    {
+      "repo": "dtacci/adobe-spectrum-components",
+      "path": ".browserslistrc",
+      "url": "https://github.com/dtacci/adobe-spectrum-components/blob/HEAD/.browserslistrc",
+      "sha256": "7bf2facf104def318c5a0f299308a3ec2e35149b73c0968ff91d8c888ce8b3b6",
+      "text": "defaults\nlast 2 Edge versions\nlast 2 Chrome versions\nlast 2 Firefox versions\nlast 2 Safari versions\nlast 2 iOS versions\nnot IE 11\n"
+    },
+    {
+      "repo": "g-guthrie/ShowdexCoach",
+      "path": ".browserslistrc",
+      "url": "https://github.com/g-guthrie/ShowdexCoach/blob/HEAD/.browserslistrc",
+      "sha256": "e65b0a3c2832f08ea86b70493966b8134afe2ac686b9253529d8ef4f06201a96",
+      "text": "# note: the following is basically `defaults`\n> 0.5%\nlast 2 versions\nlast 3 iOS versions\nFirefox ESR\nnot dead\n"
+    },
+    {
+      "repo": "simonswine/firefox-profiler-pprof-otlp",
+      "path": ".browserslistrc",
+      "url": "https://github.com/simonswine/firefox-profiler-pprof-otlp/blob/HEAD/.browserslistrc",
+      "sha256": "9d516f9f988cb8248b6b6d1e996c797c55ec742b37112c908744af9250f8ab17",
+      "text": "[development]\nlast 2 chrome versions\nlast 2 firefox versions\nlast 2 safari versions\n\n[production]\nlast 2 chrome versions\nlast 2 firefox versions\nlast 2 safari versions\n\n[test]\ncurrent node\n"
+    },
+    {
+      "repo": "ifox777/seaf-archtool-core",
+      "path": ".browserslistrc",
+      "url": "https://github.com/ifox777/seaf-archtool-core/blob/HEAD/.browserslistrc",
+      "sha256": "5026f0417778b2f09606ada457ea0c771789a45c452ba6422e6b483890ce06a7",
+      "text": "last 2 years"
+    },
+    {
+      "repo": "ifox777/test_repo_gf",
+      "path": ".browserslistrc",
+      "url": "https://github.com/ifox777/test_repo_gf/blob/HEAD/.browserslistrc",
+      "sha256": "5026f0417778b2f09606ada457ea0c771789a45c452ba6422e6b483890ce06a7",
+      "text": "last 2 years"
+    },
+    {
+      "repo": "Bikorir/section",
+      "path": ".browserslistrc",
+      "url": "https://github.com/Bikorir/section/blob/HEAD/.browserslistrc",
+      "sha256": "1de5f963a442fe8a793a1e21921d4786e16a9f35f74386908ffc9412024c1ab6",
+      "text": "# Browsers that we support\n\nlast 2 versions\n> 1%\nnot dead\n"
+    },
+    {
+      "repo": "lookback/lookbook-website",
+      "path": ".browserslistrc",
+      "url": "https://github.com/lookback/lookbook-website/blob/HEAD/.browserslistrc",
+      "sha256": "1de5f963a442fe8a793a1e21921d4786e16a9f35f74386908ffc9412024c1ab6",
+      "text": "# Browsers that we support\n\nlast 2 versions\n> 1%\nnot dead\n"
+    },
+    {
+      "repo": "yaozaofeng/eleme",
+      "path": ".browserslistrc",
+      "url": "https://github.com/yaozaofeng/eleme/blob/HEAD/.browserslistrc",
+      "sha256": "5ddb35c10b481673fbde52275b983ed053b49e947eaa5524932e29b65cb0c97e",
+      "text": "> 1%\nlast 2 versions\nnot ie <= 8\n\nAndroid >= 4.0\n"
+    },
+    {
+      "repo": "IlyaMaksimenko/im-cv",
+      "path": ".browserslistrc",
+      "url": "https://github.com/IlyaMaksimenko/im-cv/blob/HEAD/.browserslistrc",
+      "sha256": "5026f0417778b2f09606ada457ea0c771789a45c452ba6422e6b483890ce06a7",
+      "text": "last 2 years"
+    },
+    {
+      "repo": "rgdzv/react-blog",
+      "path": ".browserslistrc",
+      "url": "https://github.com/rgdzv/react-blog/blob/HEAD/.browserslistrc",
+      "sha256": "0df2f4d194f4cd94733e346a13fdeab4602280fb34261118a544e58d2cbdfc0a",
+      "text": "defaults\nnot dead"
+    },
+    {
+      "repo": "Unity-Billal-mesloub/graphiql",
+      "path": ".browserslistrc",
+      "url": "https://github.com/Unity-Billal-mesloub/graphiql/blob/HEAD/.browserslistrc",
+      "sha256": "16b97de39d416b3bd40b2b5c665f921a87657b63b800986817945f54abb3797b",
+      "text": "last 2 versions\nFirefox ESR\nnot dead\nnot IE 11\nnot ios 10\n"
+    },
+    {
+      "repo": "invirial-com/nda-demo-mobile-qr",
+      "path": ".browserslistrc",
+      "url": "https://github.com/invirial-com/nda-demo-mobile-qr/blob/HEAD/.browserslistrc",
+      "sha256": "57ff5531bf0f76af242ec6c71f60f773b4d3b2debb8232a3e9f657c4ea8f122a",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nChrome >=107\nChromeAndroid >=107\nFirefox >=104\nEdge >=107\nSafari >=16\niOS >=16"
+    },
+    {
+      "repo": "Hiiragi0831/ninelines-test",
+      "path": ".browserslistrc",
+      "url": "https://github.com/Hiiragi0831/ninelines-test/blob/HEAD/.browserslistrc",
+      "sha256": "8b73f0648827d9e07be3c416bb0395c173be6df3731c72764a1aef6b398272e1",
+      "text": "# Browsers that we support\n\nlast 5 version\n> 5%\nIE 10 # sorry\n"
+    },
+    {
+      "repo": "SHODIBEK/RocketSurf",
+      "path": ".browserslistrc",
+      "url": "https://github.com/SHODIBEK/RocketSurf/blob/HEAD/.browserslistrc",
+      "sha256": "8b73f0648827d9e07be3c416bb0395c173be6df3731c72764a1aef6b398272e1",
+      "text": "# Browsers that we support\n\nlast 5 version\n> 5%\nIE 10 # sorry\n"
+    },
+    {
+      "repo": "ovcharov2v/tanuki-form",
+      "path": ".browserslistrc",
+      "url": "https://github.com/ovcharov2v/tanuki-form/blob/HEAD/.browserslistrc",
+      "sha256": "8b73f0648827d9e07be3c416bb0395c173be6df3731c72764a1aef6b398272e1",
+      "text": "# Browsers that we support\n\nlast 5 version\n> 5%\nIE 10 # sorry\n"
+    },
+    {
+      "repo": "charry-wallaby/ninelines-test",
+      "path": ".browserslistrc",
+      "url": "https://github.com/charry-wallaby/ninelines-test/blob/HEAD/.browserslistrc",
+      "sha256": "8b73f0648827d9e07be3c416bb0395c173be6df3731c72764a1aef6b398272e1",
+      "text": "# Browsers that we support\n\nlast 5 version\n> 5%\nIE 10 # sorry\n"
+    },
+    {
+      "repo": "wlnaim/React-TS-GitHub-GQL",
+      "path": ".browserslistrc",
+      "url": "https://github.com/wlnaim/React-TS-GitHub-GQL/blob/HEAD/.browserslistrc",
+      "sha256": "fed60342a5253300312b7c54315addee9e822e6c6265a7908b24e7528fa24fd9",
+      "text": ">0.2%\nnot dead\nnot ie > 0\nnot op_mini all\n"
+    },
+    {
+      "repo": "Noah-Lhommedieu/sulu-cicd",
+      "path": ".browserslistrc",
+      "url": "https://github.com/Noah-Lhommedieu/sulu-cicd/blob/HEAD/.browserslistrc",
+      "sha256": "9b30ac3245743828320f683df2d7a2e21aba6a83222f232b1b1926aee4eb79ed",
+      "text": "last 2 versions and not dead\nnot ie < 12\nnot ie_mob < 12\n"
+    },
+    {
+      "repo": "kimkimani/guruspedia",
+      "path": ".browserslistrc",
+      "url": "https://github.com/kimkimani/guruspedia/blob/HEAD/.browserslistrc",
+      "sha256": "1de5f963a442fe8a793a1e21921d4786e16a9f35f74386908ffc9412024c1ab6",
+      "text": "# Browsers that we support\n\nlast 2 versions\n> 1%\nnot dead\n"
+    },
+    {
+      "repo": "ShawnAlchemize/ShawnSpectrogram",
+      "path": ".browserslistrc",
+      "url": "https://github.com/ShawnAlchemize/ShawnSpectrogram/blob/HEAD/.browserslistrc",
+      "sha256": "85715a202300c4ba5701b292e4178b687dc0ff8093cace406162be7462d09b4a",
+      "text": "last 2 Chrome major versions\nlast 2 Firefox major versions\nlast 2 Edge major versions\nlast 2 Safari major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "lotusjs/react-primitives",
+      "path": ".browserslistrc",
+      "url": "https://github.com/lotusjs/react-primitives/blob/HEAD/.browserslistrc",
+      "sha256": "c1e29cdce7da3ecf3c7f17bec447fbccfb5084de608716f7d9e3857d5ab2d9ab",
+      "text": "chrome 49\nedge 16\nfirefox 31\nsafari 10\nopera 36"
+    },
+    {
+      "repo": "lotusjs/lotus-design",
+      "path": ".browserslistrc",
+      "url": "https://github.com/lotusjs/lotus-design/blob/HEAD/.browserslistrc",
+      "sha256": "c1e29cdce7da3ecf3c7f17bec447fbccfb5084de608716f7d9e3857d5ab2d9ab",
+      "text": "chrome 49\nedge 16\nfirefox 31\nsafari 10\nopera 36"
+    },
+    {
+      "repo": "allenmoore/wp-base",
+      "path": ".browserslistrc",
+      "url": "https://github.com/allenmoore/wp-base/blob/HEAD/.browserslistrc",
+      "sha256": "e0cecdfbb6f6443970d5a18b203977f1cfce66f7b85f00b2f24e2dcf157aa613",
+      "text": "# Browsers that we support\n\n> 1%\nlast 2 versions\nFirefox ESR\nIE 11\n"
+    },
+    {
+      "repo": "s1adem4n/fake-spa",
+      "path": ".browserslistrc",
+      "url": "https://github.com/s1adem4n/fake-spa/blob/HEAD/.browserslistrc",
+      "sha256": "0df2f4d194f4cd94733e346a13fdeab4602280fb34261118a544e58d2cbdfc0a",
+      "text": "defaults\nnot dead"
+    },
+    {
+      "repo": "lichade-son/captcha",
+      "path": "view/angular/.browserslistrc",
+      "url": "https://github.com/lichade-son/captcha/blob/HEAD/view/angular/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "codex-team/task-manager",
+      "path": "app/frontend/.browserslistrc",
+      "url": "https://github.com/codex-team/task-manager/blob/HEAD/app/frontend/.browserslistrc",
+      "sha256": "475acf419107f9d6c47a541f643223dcda2e4d467bf93363eb264c20a0192fe3",
+      "text": "[production]\n>0.2%\nnot dead\nnot op_mini all\n\n[development]\nlast 1 chrome version\nlast 1 firefox version\nlast 1 safari version\n"
+    },
+    {
+      "repo": "benatuts/aip2020",
+      "path": "week05/withangular/.browserslistrc",
+      "url": "https://github.com/benatuts/aip2020/blob/HEAD/week05/withangular/.browserslistrc",
+      "sha256": "2cc9c1ad9840eb8f11177f3c5b22dc13b8a5619adcfe4d2b6c75f5919ff519f3",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 9-10 # Angular support for IE 9-10 has been deprecated and will be removed as of Angular v11. To opt-in, remove the 'not' prefix on this line.\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "cyfronet-fid/eosc-search-service",
+      "path": "ui/apps/ui/.browserslistrc",
+      "url": "https://github.com/cyfronet-fid/eosc-search-service/blob/HEAD/ui/apps/ui/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "NeuCharFramework/Senparc.Xncf.OpenAI",
+      "path": "src/front-end/Senparc.Xncf.OpenAI/.browserslistrc",
+      "url": "https://github.com/NeuCharFramework/Senparc.Xncf.OpenAI/blob/HEAD/src/front-end/Senparc.Xncf.OpenAI/.browserslistrc",
+      "sha256": "ec9cbdc1453c94851e838ee511cc45e0e865d8f334040f78158028dd2184cdaa",
+      "text": "> 1%\nlast 2 versions\n"
+    },
+    {
+      "repo": "robrich/vue-and-typescript-like-peanut-butter-and-jelly",
+      "path": "step-01/.browserslistrc",
+      "url": "https://github.com/robrich/vue-and-typescript-like-peanut-butter-and-jelly/blob/HEAD/step-01/.browserslistrc",
+      "sha256": "090642394a16d771ce319185924472eccac85239e3d3e6fd10f705138e1b430f",
+      "text": "> 1%\nlast 2 versions\nnot dead\n"
+    },
+    {
+      "repo": "11446/ots",
+      "path": "ots-web/.browserslistrc",
+      "url": "https://github.com/11446/ots/blob/HEAD/ots-web/.browserslistrc",
+      "sha256": "ec9cbdc1453c94851e838ee511cc45e0e865d8f334040f78158028dd2184cdaa",
+      "text": "> 1%\nlast 2 versions\n"
+    },
+    {
+      "repo": "gavilanch/Angular-y-ASP.NET-Core",
+      "path": "Angular 10 - .NET 5/Modulo 3 - Ruteo/fin/front-end/.browserslistrc",
+      "url": "https://github.com/gavilanch/Angular-y-ASP.NET-Core/blob/HEAD/Angular 10 - .NET 5/Modulo 3 - Ruteo/fin/front-end/.browserslistrc",
+      "sha256": "2cc9c1ad9840eb8f11177f3c5b22dc13b8a5619adcfe4d2b6c75f5919ff519f3",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 9-10 # Angular support for IE 9-10 has been deprecated and will be removed as of Angular v11. To opt-in, remove the 'not' prefix on this line.\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "hidoo/styleunit",
+      "path": ".browserslistrc",
+      "url": "https://github.com/hidoo/styleunit/blob/HEAD/.browserslistrc",
+      "sha256": "038b1355500eea20d0ec9173778eef3585a782f7be21513acd441dacb57cd88a",
+      "text": "defaults\n> 0.5% in JP\nnot OperaMini all\nnot QQAndroid > 0\nnot UCAndroid > 0\nnot KaiOS > 0\n"
+    },
+    {
+      "repo": "redpop/gulp-firestarter-2023",
+      "path": ".browserslistrc",
+      "url": "https://github.com/redpop/gulp-firestarter-2023/blob/HEAD/.browserslistrc",
+      "sha256": "507f29c92427e2266a95dfd9a36aa8c122cfa83283961b4df197cf3dc31f69b8",
+      "text": "# Browsers that we support\n# https://github.com/browserslist/browserslist#browsers\n\ndefaults\nnot IE 11\n"
+    },
+    {
+      "repo": "Lemoncode/Angular-Architecture-Fundamentals",
+      "path": "angular_14/demos/11-state-management-service/game-catalog/.browserslistrc",
+      "url": "https://github.com/Lemoncode/Angular-Architecture-Fundamentals/blob/HEAD/angular_14/demos/11-state-management-service/game-catalog/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "tcramer217/Anubis",
+      "path": "anubis-family/.browserslistrc",
+      "url": "https://github.com/tcramer217/Anubis/blob/HEAD/anubis-family/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "PerettoLucas/3-4-5-TFO-INFO",
+      "path": "Node-REST-AN/.browserslistrc",
+      "url": "https://github.com/PerettoLucas/3-4-5-TFO-INFO/blob/HEAD/Node-REST-AN/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "stevieyu/movie-demo",
+      "path": ".browserslistrc",
+      "url": "https://github.com/stevieyu/movie-demo/blob/HEAD/.browserslistrc",
+      "sha256": "b62b63ba6977e022df9c455dd0b95111b57dab12c339d509cfe85e32154cded1",
+      "text": "ios >= 12\n"
+    },
+    {
+      "repo": "Sergey-SM2021/bootstrap",
+      "path": ".browserslistrc",
+      "url": "https://github.com/Sergey-SM2021/bootstrap/blob/HEAD/.browserslistrc",
+      "sha256": "1f6771e074bbd71d37d3938bcc060c619fd5be67115ef7eddf70d6a8d71b7fdf",
+      "text": "[production]\ndefaults\nnot dead\n> 2%\n\n\n\n[development]\nlast 2 Chrome versions\nlast 2 Firefox versions"
+    },
+    {
+      "repo": "Quoc-Trieu/webBanhang",
+      "path": "Ictshop/Areas/Assets/.browserslistrc",
+      "url": "https://github.com/Quoc-Trieu/webBanhang/blob/HEAD/Ictshop/Areas/Assets/.browserslistrc",
+      "sha256": "568a1c53f74aba3361a507a28061e074a5b6fb0e06a1cf6a44e39030da4e700c",
+      "text": "# https://github.com/browserslist/browserslist#readme\n\n>= 1%\nlast 1 major version\nnot dead\nChrome >= 60\nFirefox >= 60\nEdge >= 15.15063\nExplorer 11\niOS >= 10\nSafari >= 10\nAndroid >= 6\nnot ExplorerMobile <= 11\n"
+    },
+    {
+      "repo": "Ionasjospo/ObligatorioWebYMobile",
+      "path": "WebProject/.browserslistrc",
+      "url": "https://github.com/Ionasjospo/ObligatorioWebYMobile/blob/HEAD/WebProject/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "hoshimado/tdd-vuejs-book",
+      "path": "chapter01/section1-2/cli-vue/.browserslistrc",
+      "url": "https://github.com/hoshimado/tdd-vuejs-book/blob/HEAD/chapter01/section1-2/cli-vue/.browserslistrc",
+      "sha256": "ec9cbdc1453c94851e838ee511cc45e0e865d8f334040f78158028dd2184cdaa",
+      "text": "> 1%\nlast 2 versions\n"
+    },
+    {
+      "repo": "lWoHvYe/captcha",
+      "path": "view/angular/.browserslistrc",
+      "url": "https://github.com/lWoHvYe/captcha/blob/HEAD/view/angular/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "gcammisa/S4DFarm",
+      "path": "server/front/.browserslistrc",
+      "url": "https://github.com/gcammisa/S4DFarm/blob/HEAD/server/front/.browserslistrc",
+      "sha256": "090642394a16d771ce319185924472eccac85239e3d3e6fd10f705138e1b430f",
+      "text": "> 1%\nlast 2 versions\nnot dead\n"
+    },
+    {
+      "repo": "pig-mesh/aj-captcha",
+      "path": "view/angular/.browserslistrc",
+      "url": "https://github.com/pig-mesh/aj-captcha/blob/HEAD/view/angular/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "sbolande/wdd430",
+      "path": "w08_Assignment/cms/.browserslistrc",
+      "url": "https://github.com/sbolande/wdd430/blob/HEAD/w08_Assignment/cms/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "RossDScott/GymTracker",
+      "path": "POCs/01_Initial_Ideas_Angular/.browserslistrc",
+      "url": "https://github.com/RossDScott/GymTracker/blob/HEAD/POCs/01_Initial_Ideas_Angular/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "WillBooster/shared",
+      "path": "packages/shared-lib-node/.browserslistrc",
+      "url": "https://github.com/WillBooster/shared/blob/HEAD/packages/shared-lib-node/.browserslistrc",
+      "sha256": "ba37ed002491148fc25757070b298d2a7a6ea502ddf126755fdb3d9fdc73d2f5",
+      "text": "node 22\n"
+    },
+    {
+      "repo": "web3assignments/BC3_Shane",
+      "path": "PD-14/EpicFive/.browserslistrc",
+      "url": "https://github.com/web3assignments/BC3_Shane/blob/HEAD/PD-14/EpicFive/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "HE-Arc/AnalyChess",
+      "path": "analychess_front/.browserslistrc",
+      "url": "https://github.com/HE-Arc/AnalyChess/blob/HEAD/analychess_front/.browserslistrc",
+      "sha256": "090642394a16d771ce319185924472eccac85239e3d3e6fd10f705138e1b430f",
+      "text": "> 1%\nlast 2 versions\nnot dead\n"
+    },
+    {
+      "repo": "SergioAcostaTer/canary-beaches-platform",
+      "path": "assets/.browserslistrc",
+      "url": "https://github.com/SergioAcostaTer/canary-beaches-platform/blob/HEAD/assets/.browserslistrc",
+      "sha256": "60607e55182ed59a6c61fd3bd65ae2ddcc3656d0896a160e206611c8b50fbd89",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nChrome >=79\nChromeAndroid >=79\nFirefox >=70\nEdge >=79\nSafari >=14\niOS >=14\n"
+    },
+    {
+      "repo": "caiomontenegro/course_Vue",
+      "path": "modules/Module 15/.browserslistrc",
+      "url": "https://github.com/caiomontenegro/course_Vue/blob/HEAD/modules/Module 15/.browserslistrc",
+      "sha256": "0ba93f0048fe4191fb5f317b194f8249a98cfe180e34ab03e408177e298dbcf8",
+      "text": "> 1%\r\nlast 2 versions\r\nnot dead\r\n"
+    },
+    {
+      "repo": "kai9987kai/windhawk",
+      "path": "src/vscode-windhawk-ui/apps/vscode-windhawk-ui/.browserslistrc",
+      "url": "https://github.com/kai9987kai/windhawk/blob/HEAD/src/vscode-windhawk-ui/apps/vscode-windhawk-ui/.browserslistrc",
+      "sha256": "214ca160071ff4343c827710dc2ba55628b59d519241b66e5c78ef7795ad2241",
+      "text": "# This file is used by:\n# 1. autoprefixer to adjust CSS to support the below specified browsers\n# 2. babel preset-env to adjust included polyfills\n#\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n#\n# If you need to support different browsers in production, you may tweak the list below.\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major version\nlast 2 iOS major versions\nFirefox ESR\nnot IE 9-11 # For IE 9-11 support, remove 'not'."
+    },
+    {
+      "repo": "eugen8/playgrounds",
+      "path": "ts/ng-p1/.browserslistrc",
+      "url": "https://github.com/eugen8/playgrounds/blob/HEAD/ts/ng-p1/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "xuexiangyuan/H2201B",
+      "path": "vue32023/.browserslistrc",
+      "url": "https://github.com/xuexiangyuan/H2201B/blob/HEAD/vue32023/.browserslistrc",
+      "sha256": "00e4c16758c933c5411680decad48410c2e608760544315399a435b14141e419",
+      "text": "> 1%\nlast 2 versions\nnot dead\nnot ie 11\n"
+    },
+    {
+      "repo": "Ervin-PM/ventasfix_project",
+      "path": "template/.browserslistrc",
+      "url": "https://github.com/Ervin-PM/ventasfix_project/blob/HEAD/template/.browserslistrc",
+      "sha256": "d9f9ef116b7127e5c6914eda4781e4410105980b655ac97c185303cff1ad2f11",
+      "text": ">= 0.5%\nlast 4 major versions"
+    },
+    {
+      "repo": "tobytop/ng-formbuilder",
+      "path": "projects/formbuilder/.browserslistrc",
+      "url": "https://github.com/tobytop/ng-formbuilder/blob/HEAD/projects/formbuilder/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "made2591/fullstackconf19",
+      "path": "webapp-mock/.browserslistrc",
+      "url": "https://github.com/made2591/fullstackconf19/blob/HEAD/webapp-mock/.browserslistrc",
+      "sha256": "b6022105b3539be9d7b387c7f97814e22fb6975fd0b1e0c6fb79874637b051a0",
+      "text": "> 1%\nlast 2 versions\nnot ie <= 8\n"
+    },
+    {
+      "repo": "Ankitashejal/PORTFOLIO",
+      "path": "RESUME-main/.browserslistrc",
+      "url": "https://github.com/Ankitashejal/PORTFOLIO/blob/HEAD/RESUME-main/.browserslistrc",
+      "sha256": "60607e55182ed59a6c61fd3bd65ae2ddcc3656d0896a160e206611c8b50fbd89",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nChrome >=79\nChromeAndroid >=79\nFirefox >=70\nEdge >=79\nSafari >=14\niOS >=14\n"
+    },
+    {
+      "repo": "zYuna646/peminjaman-mobil",
+      "path": "public/style/.browserslistrc",
+      "url": "https://github.com/zYuna646/peminjaman-mobil/blob/HEAD/public/style/.browserslistrc",
+      "sha256": "d9f9ef116b7127e5c6914eda4781e4410105980b655ac97c185303cff1ad2f11",
+      "text": ">= 0.5%\nlast 4 major versions"
+    },
+    {
+      "repo": "piguavejc/easy-tutorials",
+      "path": "videollamada/.browserslistrc",
+      "url": "https://github.com/piguavejc/easy-tutorials/blob/HEAD/videollamada/.browserslistrc",
+      "sha256": "502315351aab0d4c3f09c63b7f3b8eb75c9d9536f4f3cdde7f892ed8a1ed671a",
+      "text": "last 2 versions\n> 0.5%\nIE 8"
+    },
+    {
+      "repo": "dlid/dlid-ng-common",
+      "path": "projects/ng-common-demo/.browserslistrc",
+      "url": "https://github.com/dlid/dlid-ng-common/blob/HEAD/projects/ng-common-demo/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "NarodeeS/postgres_tasks",
+      "path": "postgres_front/.browserslistrc",
+      "url": "https://github.com/NarodeeS/postgres_tasks/blob/HEAD/postgres_front/.browserslistrc",
+      "sha256": "00e4c16758c933c5411680decad48410c2e608760544315399a435b14141e419",
+      "text": "> 1%\nlast 2 versions\nnot dead\nnot ie 11\n"
+    },
+    {
+      "repo": "cibelewatt/mygym",
+      "path": "frontend/mygym/.browserslistrc",
+      "url": "https://github.com/cibelewatt/mygym/blob/HEAD/frontend/mygym/.browserslistrc",
+      "sha256": "2cc9c1ad9840eb8f11177f3c5b22dc13b8a5619adcfe4d2b6c75f5919ff519f3",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 9-10 # Angular support for IE 9-10 has been deprecated and will be removed as of Angular v11. To opt-in, remove the 'not' prefix on this line.\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "AbbasSrour/dionysus",
+      "path": "apps/aphrodite/.browserslistrc",
+      "url": "https://github.com/AbbasSrour/dionysus/blob/HEAD/apps/aphrodite/.browserslistrc",
+      "sha256": "214ca160071ff4343c827710dc2ba55628b59d519241b66e5c78ef7795ad2241",
+      "text": "# This file is used by:\n# 1. autoprefixer to adjust CSS to support the below specified browsers\n# 2. babel preset-env to adjust included polyfills\n#\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n#\n# If you need to support different browsers in production, you may tweak the list below.\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major version\nlast 2 iOS major versions\nFirefox ESR\nnot IE 9-11 # For IE 9-11 support, remove 'not'."
+    },
+    {
+      "repo": "omarcelobenites/agencia_vizen",
+      "path": "agencia_vizenrh/.browserslistrc",
+      "url": "https://github.com/omarcelobenites/agencia_vizen/blob/HEAD/agencia_vizenrh/.browserslistrc",
+      "sha256": "78ae11b40c76a29d2acfbe6de31df67a3593632482fb62ea23e648a9d1a0405e",
+      "text": "defaults\n"
+    },
+    {
+      "repo": "victorsismotto2292/aula3_ionrange",
+      "path": "exercicios_main/.browserslistrc",
+      "url": "https://github.com/victorsismotto2292/aula3_ionrange/blob/HEAD/exercicios_main/.browserslistrc",
+      "sha256": "98bd8524cb7744db8b24ae8e559bc9f1a30662d547991bae3d2a98f6e41b2ede",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.dev/reference/versions#browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nChrome >=107\nFirefox >=106\nEdge >=107\nSafari >=16.1\niOS >=16.1\n"
+    },
+    {
+      "repo": "Felipe-Perez-Ferraro/Ionic-Docs",
+      "path": "04-peliculasApp/.browserslistrc",
+      "url": "https://github.com/Felipe-Perez-Ferraro/Ionic-Docs/blob/HEAD/04-peliculasApp/.browserslistrc",
+      "sha256": "60607e55182ed59a6c61fd3bd65ae2ddcc3656d0896a160e206611c8b50fbd89",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nChrome >=79\nChromeAndroid >=79\nFirefox >=70\nEdge >=79\nSafari >=14\niOS >=14\n"
+    },
+    {
+      "repo": "NestorAndres1215/sistema-inventario",
+      "path": "FRONT-INVENTARIO/.browserslistrc",
+      "url": "https://github.com/NestorAndres1215/sistema-inventario/blob/HEAD/FRONT-INVENTARIO/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "saikumar9849/angularPractice",
+      "path": "customdirectives/.browserslistrc",
+      "url": "https://github.com/saikumar9849/angularPractice/blob/HEAD/customdirectives/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "pthanhphong15022002/T",
+      "path": "projects/codx-dp/.browserslistrc",
+      "url": "https://github.com/pthanhphong15022002/T/blob/HEAD/projects/codx-dp/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "adevrian/Angular_Avanzado",
+      "path": "Angular-adv/interceptorsApp/.browserslistrc",
+      "url": "https://github.com/adevrian/Angular_Avanzado/blob/HEAD/Angular-adv/interceptorsApp/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "kyudipiee/tugasakhir",
+      "path": "public/template_a/.browserslistrc",
+      "url": "https://github.com/kyudipiee/tugasakhir/blob/HEAD/public/template_a/.browserslistrc",
+      "sha256": "568a1c53f74aba3361a507a28061e074a5b6fb0e06a1cf6a44e39030da4e700c",
+      "text": "# https://github.com/browserslist/browserslist#readme\n\n>= 1%\nlast 1 major version\nnot dead\nChrome >= 60\nFirefox >= 60\nEdge >= 15.15063\nExplorer 11\niOS >= 10\nSafari >= 10\nAndroid >= 6\nnot ExplorerMobile <= 11\n"
+    },
+    {
+      "repo": "ApiLogicServer/codespaces_mgr",
+      "path": "car_rental/ui/app/.browserslistrc",
+      "url": "https://github.com/ApiLogicServer/codespaces_mgr/blob/HEAD/car_rental/ui/app/.browserslistrc",
+      "sha256": "908159a66b91c3360cabbfa600bc21988c1a5aa83270ac041bec2eb5c30a32a5",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 2 Chrome versions\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions"
+    },
+    {
+      "repo": "josephnasef/ClinicFE",
+      "path": "assets/_admin-lte/.browserslistrc",
+      "url": "https://github.com/josephnasef/ClinicFE/blob/HEAD/assets/_admin-lte/.browserslistrc",
+      "sha256": "7eeabb32cf8a66355e6d5f690f7bd4a3a98783a26c23293eed35055c19eb3bb9",
+      "text": "# https://github.com/browserslist/browserslist#readme\n\n>= 0.2%\nlast 2 major versions\nnot dead\nFirefox ESR\nEdge >= 16\nExplorer >= 10\niOS >= 9\nSafari >= 9\n"
+    },
+    {
+      "repo": "StelleRainn/front-end-learning",
+      "path": "vue-practice/customized-demo/.browserslistrc",
+      "url": "https://github.com/StelleRainn/front-end-learning/blob/HEAD/vue-practice/customized-demo/.browserslistrc",
+      "sha256": "090642394a16d771ce319185924472eccac85239e3d3e6fd10f705138e1b430f",
+      "text": "> 1%\nlast 2 versions\nnot dead\n"
+    },
+    {
+      "repo": "semahkadri/Art-ini_Website",
+      "path": "Views/Front/Assets/.browserslistrc",
+      "url": "https://github.com/semahkadri/Art-ini_Website/blob/HEAD/Views/Front/Assets/.browserslistrc",
+      "sha256": "6b5806c60d64d0c0db1786699e375b81cd19d72e2e9812275fe160849662c0e6",
+      "text": "# https://github.com/browserslist/browserslist#readme\n\n>= 1%\nlast 1 major version\nnot dead\nChrome >= 45\nFirefox >= 38\nEdge >= 12\nExplorer >= 10\niOS >= 9\nSafari >= 9\nAndroid >= 4.4\nOpera >= 30"
+    },
+    {
+      "repo": "danmt/multi-tenant-platform",
+      "path": "apps/second-tenant/.browserslistrc",
+      "url": "https://github.com/danmt/multi-tenant-platform/blob/HEAD/apps/second-tenant/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "devcamke/vet_clinic_api",
+      "path": "vet_clinic_frontend/.browserslistrc",
+      "url": "https://github.com/devcamke/vet_clinic_api/blob/HEAD/vet_clinic_frontend/.browserslistrc",
+      "sha256": "00e4c16758c933c5411680decad48410c2e608760544315399a435b14141e419",
+      "text": "> 1%\nlast 2 versions\nnot dead\nnot ie 11\n"
+    },
+    {
+      "repo": "manfredsteyer/ddd-generators",
+      "path": "libs/checkin/domain/.browserslistrc",
+      "url": "https://github.com/manfredsteyer/ddd-generators/blob/HEAD/libs/checkin/domain/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "qishilong/vue-perosonal-blog-front-system",
+      "path": "25. $listeners 和 v-model/demo1/.browserslistrc",
+      "url": "https://github.com/qishilong/vue-perosonal-blog-front-system/blob/HEAD/25. $listeners 和 v-model/demo1/.browserslistrc",
+      "sha256": "090642394a16d771ce319185924472eccac85239e3d3e6fd10f705138e1b430f",
+      "text": "> 1%\nlast 2 versions\nnot dead\n"
+    },
+    {
+      "repo": "ikursus/doccontrol",
+      "path": "public/themes/sbadmin2/.browserslistrc",
+      "url": "https://github.com/ikursus/doccontrol/blob/HEAD/public/themes/sbadmin2/.browserslistrc",
+      "sha256": "568a1c53f74aba3361a507a28061e074a5b6fb0e06a1cf6a44e39030da4e700c",
+      "text": "# https://github.com/browserslist/browserslist#readme\n\n>= 1%\nlast 1 major version\nnot dead\nChrome >= 60\nFirefox >= 60\nEdge >= 15.15063\nExplorer 11\niOS >= 10\nSafari >= 10\nAndroid >= 6\nnot ExplorerMobile <= 11\n"
+    },
+    {
+      "repo": "SatriaNadirakhma/PBLSEM4",
+      "path": "PBLSEM4/public/adminlte/.browserslistrc",
+      "url": "https://github.com/SatriaNadirakhma/PBLSEM4/blob/HEAD/PBLSEM4/public/adminlte/.browserslistrc",
+      "sha256": "7eeabb32cf8a66355e6d5f690f7bd4a3a98783a26c23293eed35055c19eb3bb9",
+      "text": "# https://github.com/browserslist/browserslist#readme\n\n>= 0.2%\nlast 2 major versions\nnot dead\nFirefox ESR\nEdge >= 16\nExplorer >= 10\niOS >= 9\nSafari >= 9\n"
+    },
+    {
+      "repo": "Hamza09Hamza/doctor_assistant",
+      "path": "viewer/ohif/platform/app/.browserslistrc",
+      "url": "https://github.com/Hamza09Hamza/doctor_assistant/blob/HEAD/viewer/ohif/platform/app/.browserslistrc",
+      "sha256": "ebeae763d9c81562eedf13fb3e12c6ad6ede7c9eed41eb1aa395940c402b2a4b",
+      "text": "# Browsers that we support\n\n> 1%\nIE 11\nnot IE < 11\nnot dead\nnot op_mini all\n"
+    },
+    {
+      "repo": "jeri12345/Sanbercode-X-Universitas-Lancang-Kuning",
+      "path": "tugas-12/public/template/.browserslistrc",
+      "url": "https://github.com/jeri12345/Sanbercode-X-Universitas-Lancang-Kuning/blob/HEAD/tugas-12/public/template/.browserslistrc",
+      "sha256": "7eeabb32cf8a66355e6d5f690f7bd4a3a98783a26c23293eed35055c19eb3bb9",
+      "text": "# https://github.com/browserslist/browserslist#readme\n\n>= 0.2%\nlast 2 major versions\nnot dead\nFirefox ESR\nEdge >= 16\nExplorer >= 10\niOS >= 9\nSafari >= 9\n"
+    },
+    {
+      "repo": "rwxrwx-rwx/microfrontend-bundles",
+      "path": "bundles/ng-zorro-antd-core-time_src/.browserslistrc",
+      "url": "https://github.com/rwxrwx-rwx/microfrontend-bundles/blob/HEAD/bundles/ng-zorro-antd-core-time_src/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "accurate/och-mosaiq-dev",
+      "path": "mosaiq/.browserslistrc",
+      "url": "https://github.com/accurate/och-mosaiq-dev/blob/HEAD/mosaiq/.browserslistrc",
+      "sha256": "0090300d7be174609431efcdcbbfd85ddc7ad8bf1956b964fc5cfe451b70b582",
+      "text": "# please see https://github.com/browserslist/browserslist for more info\n# These settings can be changed depending on what browsers your project is supporting\n\n>= 0.01%\nLast 5 versions\nlast 8 iOS versions\nFirefox >= 28\nIE 10 # sorry\nIE 11 # sorry\ndead # sorry"
+    },
+    {
+      "repo": "memirozdemir/MvcProjectCV",
+      "path": "MvcProjectCV/AdminLTE-3.0.4/.browserslistrc",
+      "url": "https://github.com/memirozdemir/MvcProjectCV/blob/HEAD/MvcProjectCV/AdminLTE-3.0.4/.browserslistrc",
+      "sha256": "47675d340fd90c554a1a27bf63751a44d7aa6423238e0f7e325b5f426bba2afb",
+      "text": "# https://github.com/browserslist/browserslist#readme\n\n>= 1%\nlast 1 major version\nnot dead\nChrome >= 45\nFirefox >= 38\nEdge >= 12\nExplorer >= 10\niOS >= 9\nSafari >= 9\nAndroid >= 4.4\nOpera >= 30\n"
+    },
+    {
+      "repo": "bui2jp/vue-ts-example",
+      "path": "02_hello-world-ts-classstyle/.browserslistrc",
+      "url": "https://github.com/bui2jp/vue-ts-example/blob/HEAD/02_hello-world-ts-classstyle/.browserslistrc",
+      "sha256": "090642394a16d771ce319185924472eccac85239e3d3e6fd10f705138e1b430f",
+      "text": "> 1%\nlast 2 versions\nnot dead\n"
+    },
+    {
+      "repo": "hel1yeah/ToCode.Vue.js.Course.github.io",
+      "path": "usersCRM/.browserslistrc",
+      "url": "https://github.com/hel1yeah/ToCode.Vue.js.Course.github.io/blob/HEAD/usersCRM/.browserslistrc",
+      "sha256": "b6022105b3539be9d7b387c7f97814e22fb6975fd0b1e0c6fb79874637b051a0",
+      "text": "> 1%\nlast 2 versions\nnot ie <= 8\n"
+    },
+    {
+      "repo": "flip96420/transcendence",
+      "path": "wormgame/.browserslistrc",
+      "url": "https://github.com/flip96420/transcendence/blob/HEAD/wormgame/.browserslistrc",
+      "sha256": "00e4c16758c933c5411680decad48410c2e608760544315399a435b14141e419",
+      "text": "> 1%\nlast 2 versions\nnot dead\nnot ie 11\n"
+    },
+    {
+      "repo": "mfro/p2p-games",
+      "path": "snake-p2p/.browserslistrc",
+      "url": "https://github.com/mfro/p2p-games/blob/HEAD/snake-p2p/.browserslistrc",
+      "sha256": "ec9cbdc1453c94851e838ee511cc45e0e865d8f334040f78158028dd2184cdaa",
+      "text": "> 1%\nlast 2 versions\n"
+    },
+    {
+      "repo": "UGONT/Arquitectura",
+      "path": "AppRecetas/.browserslistrc",
+      "url": "https://github.com/UGONT/Arquitectura/blob/HEAD/AppRecetas/.browserslistrc",
+      "sha256": "60607e55182ed59a6c61fd3bd65ae2ddcc3656d0896a160e206611c8b50fbd89",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nChrome >=79\nChromeAndroid >=79\nFirefox >=70\nEdge >=79\nSafari >=14\niOS >=14\n"
+    },
+    {
+      "repo": "Stefan99353/taskrs",
+      "path": "taskrs-web/.browserslistrc",
+      "url": "https://github.com/Stefan99353/taskrs/blob/HEAD/taskrs-web/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "2316445561/saas_finance_front",
+      "path": "saas_front/.browserslistrc",
+      "url": "https://github.com/2316445561/saas_finance_front/blob/HEAD/saas_front/.browserslistrc",
+      "sha256": "090642394a16d771ce319185924472eccac85239e3d3e6fd10f705138e1b430f",
+      "text": "> 1%\nlast 2 versions\nnot dead\n"
+    },
+    {
+      "repo": "vuongicesmile/WebBanHangThucTe",
+      "path": "shopping-master/public/adminlte/.browserslistrc",
+      "url": "https://github.com/vuongicesmile/WebBanHangThucTe/blob/HEAD/shopping-master/public/adminlte/.browserslistrc",
+      "sha256": "47675d340fd90c554a1a27bf63751a44d7aa6423238e0f7e325b5f426bba2afb",
+      "text": "# https://github.com/browserslist/browserslist#readme\n\n>= 1%\nlast 1 major version\nnot dead\nChrome >= 45\nFirefox >= 38\nEdge >= 12\nExplorer >= 10\niOS >= 9\nSafari >= 9\nAndroid >= 4.4\nOpera >= 30\n"
+    },
+    {
+      "repo": "fathurwalkers/management-report-kpa",
+      "path": "public/assets/tailwind-dashboard/.browserslistrc",
+      "url": "https://github.com/fathurwalkers/management-report-kpa/blob/HEAD/public/assets/tailwind-dashboard/.browserslistrc",
+      "sha256": "3c524382f1b3d8c3dd1af16db2b9f94b79f53e66ab7aa42c6d78d5ecdf3f174d",
+      "text": "last 1 version\n>1%\nmaintained node versions\nnot dead"
+    },
+    {
+      "repo": "marquesdanilocarlos/vue3",
+      "path": "projeto-4-quiz/.browserslistrc",
+      "url": "https://github.com/marquesdanilocarlos/vue3/blob/HEAD/projeto-4-quiz/.browserslistrc",
+      "sha256": "00e4c16758c933c5411680decad48410c2e608760544315399a435b14141e419",
+      "text": "> 1%\nlast 2 versions\nnot dead\nnot ie 11\n"
+    },
+    {
+      "repo": "abhishek300830/WatchGuard_Daily_Task_Abhishek",
+      "path": "complete Angular Course/obs-01-start/.browserslistrc",
+      "url": "https://github.com/abhishek300830/WatchGuard_Daily_Task_Abhishek/blob/HEAD/complete Angular Course/obs-01-start/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "o-gkmn/traversal",
+      "path": "Traversal_Web_App/wwwroot/sneat-1.0.0/.browserslistrc",
+      "url": "https://github.com/o-gkmn/traversal/blob/HEAD/Traversal_Web_App/wwwroot/sneat-1.0.0/.browserslistrc",
+      "sha256": "4471b2c7e2b18d9799a1a7d93365523b30a1cb7624c83f3233466b88e110caef",
+      "text": "defaults,\nnot IE 11,\nmaintained node versions\n"
+    },
+    {
+      "repo": "231021053pomg/MN-Groop",
+      "path": "MNGroopAPS.Client/.browserslistrc",
+      "url": "https://github.com/231021053pomg/MN-Groop/blob/HEAD/MNGroopAPS.Client/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "Silence-dream/Study-Note",
+      "path": "废弃/01前端/Vue/代码/happy-answer-完整版/.browserslistrc",
+      "url": "https://github.com/Silence-dream/Study-Note/blob/HEAD/废弃/01前端/Vue/代码/happy-answer-完整版/.browserslistrc",
+      "sha256": "0ba93f0048fe4191fb5f317b194f8249a98cfe180e34ab03e408177e298dbcf8",
+      "text": "> 1%\r\nlast 2 versions\r\nnot dead\r\n"
+    },
+    {
+      "repo": "ustbmz/DuOneResource",
+      "path": "04.60 days/08. vue从入门到实战/25. $listeners和v-model/课堂代码/demo2/.browserslistrc",
+      "url": "https://github.com/ustbmz/DuOneResource/blob/HEAD/04.60 days/08. vue从入门到实战/25. $listeners和v-model/课堂代码/demo2/.browserslistrc",
+      "sha256": "090642394a16d771ce319185924472eccac85239e3d3e6fd10f705138e1b430f",
+      "text": "> 1%\nlast 2 versions\nnot dead\n"
+    },
+    {
+      "repo": "ttang852/docker-react",
+      "path": "node_modules_delete/dom-accessibility-api/.browserslistrc",
+      "url": "https://github.com/ttang852/docker-react/blob/HEAD/node_modules_delete/dom-accessibility-api/.browserslistrc",
+      "sha256": "f9f79aea9a64851e9462acc797a7b6a8865ab9ac411e3e47260a3a06f82f8b27",
+      "text": "ie 11\nedge >= 14\nfirefox >= 52\nchrome >= 49\nsafari >= 10\nnode 10.0\n"
+    },
+    {
+      "repo": "Kondzioplus/Webpack",
+      "path": "Lekcje/6. Optymalizacja/6-4 Code splitting/.browserslistrc",
+      "url": "https://github.com/Kondzioplus/Webpack/blob/HEAD/Lekcje/6. Optymalizacja/6-4 Code splitting/.browserslistrc",
+      "sha256": "122732de7c3b4162c05a53beac216ad07d89152d2011c42f8b0b1223893daf59",
+      "text": "last 4 versions"
+    },
+    {
+      "repo": "fenggaoyao/studynote",
+      "path": "FrontEnd/geekuniversity/lesson2/fe-course/module1/pwa/.browserslistrc",
+      "url": "https://github.com/fenggaoyao/studynote/blob/HEAD/FrontEnd/geekuniversity/lesson2/fe-course/module1/pwa/.browserslistrc",
+      "sha256": "090642394a16d771ce319185924472eccac85239e3d3e6fd10f705138e1b430f",
+      "text": "> 1%\nlast 2 versions\nnot dead\n"
+    },
+    {
+      "repo": "jmw5598/dotnet-angular-multitenancy",
+      "path": "clients/projects/office/.browserslistrc",
+      "url": "https://github.com/jmw5598/dotnet-angular-multitenancy/blob/HEAD/clients/projects/office/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "cerebrohq/integration",
+      "path": "ctentaculo/adobe/sources/.browserslistrc",
+      "url": "https://github.com/cerebrohq/integration/blob/HEAD/ctentaculo/adobe/sources/.browserslistrc",
+      "sha256": "6e316e9fadb695398d20047cac7c0cb7ca93d975b2dddd27608b65c1ceed1fec",
+      "text": "last 4 version"
+    },
+    {
+      "repo": "kenneth-wise/AngularLab",
+      "path": "PS18239_DaoDucMinhKhoi_Lab3/.browserslistrc",
+      "url": "https://github.com/kenneth-wise/AngularLab/blob/HEAD/PS18239_DaoDucMinhKhoi_Lab3/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "dinoiacono/fs0722b-Dino-Iacono",
+      "path": "capstone/Front-end/socialAzienda/.browserslistrc",
+      "url": "https://github.com/dinoiacono/fs0722b-Dino-Iacono/blob/HEAD/capstone/Front-end/socialAzienda/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "ArhamMohammed/Interview_Prep",
+      "path": "FrontEnd/Angular_Practice/Assignments/obs-05-finished/.browserslistrc",
+      "url": "https://github.com/ArhamMohammed/Interview_Prep/blob/HEAD/FrontEnd/Angular_Practice/Assignments/obs-05-finished/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "leelija-dev/superadmin-medicy",
+      "path": "assets--root/plugins/bootstrap/5.3.3/.browserslistrc",
+      "url": "https://github.com/leelija-dev/superadmin-medicy/blob/HEAD/assets--root/plugins/bootstrap/5.3.3/.browserslistrc",
+      "sha256": "f0c4b3d6464785e81332352fb08203fd213acc59546a9127f0982105a173b0f6",
+      "text": "# https://github.com/browserslist/browserslist#readme\n\n>= 0.5%\nlast 2 major versions\nnot dead\nChrome >= 60\nFirefox >= 60\nFirefox ESR\niOS >= 12\nSafari >= 12\nnot Explorer <= 11\n"
+    },
+    {
+      "repo": "Uros998/uni",
+      "path": "Treca godina/IT255/Domaci 5/metHotels/.browserslistrc",
+      "url": "https://github.com/Uros998/uni/blob/HEAD/Treca godina/IT255/Domaci 5/metHotels/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "elirc/grav1pretalx",
+      "path": "pretalx/src/pretalx/frontend/schedule/.browserslistrc",
+      "url": "https://github.com/elirc/grav1pretalx/blob/HEAD/pretalx/src/pretalx/frontend/schedule/.browserslistrc",
+      "sha256": "7cdb1086dd6bd755b51d2194133daca121110e9360f90d4ecf0b3e5dedda56c3",
+      "text": "# SPDX-FileCopyrightText: 2020-present Tobias Kunze\r\n# SPDX-License-Identifier: Apache-2.0\r\n\r\n> 1%\r\nlast 2 versions\r\nnot dead\r\n"
+    },
+    {
+      "repo": "Laminhloball-412/MANO",
+      "path": "ran/openairinterface5g-duranta/common/utils/websrv/frontend/.browserslistrc",
+      "url": "https://github.com/Laminhloball-412/MANO/blob/HEAD/ran/openairinterface5g-duranta/common/utils/websrv/frontend/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "LayZeeDK/nxg-aot-limitations",
+      "path": "projects/aot-error-only-initialized-variables-and-constants/.browserslistrc",
+      "url": "https://github.com/LayZeeDK/nxg-aot-limitations/blob/HEAD/projects/aot-error-only-initialized-variables-and-constants/.browserslistrc",
+      "sha256": "7a0343209994019f023d7597bcf49ea3348cc1b739ee661fd084df253ec60dca",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "TechRetainerAI/Poultrymaster_api",
+      "path": "Other sql files for Crypto software/sample stripe course code/SPA/.browserslistrc",
+      "url": "https://github.com/TechRetainerAI/Poultrymaster_api/blob/HEAD/Other sql files for Crypto software/sample stripe course code/SPA/.browserslistrc",
+      "sha256": "2cc9c1ad9840eb8f11177f3c5b22dc13b8a5619adcfe4d2b6c75f5919ff519f3",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\nnot IE 9-10 # Angular support for IE 9-10 has been deprecated and will be removed as of Angular v11. To opt-in, remove the 'not' prefix on this line.\nnot IE 11 # Angular supports IE 11 only as an opt-in. To opt-in, remove the 'not' prefix on this line.\n"
+    },
+    {
+      "repo": "valerianCapon/Adaptive-Online-Grading",
+      "path": "static/theme/startbootstrap-sb-admin-2-gh-pages/.browserslistrc",
+      "url": "https://github.com/valerianCapon/Adaptive-Online-Grading/blob/HEAD/static/theme/startbootstrap-sb-admin-2-gh-pages/.browserslistrc",
+      "sha256": "568a1c53f74aba3361a507a28061e074a5b6fb0e06a1cf6a44e39030da4e700c",
+      "text": "# https://github.com/browserslist/browserslist#readme\n\n>= 1%\nlast 1 major version\nnot dead\nChrome >= 60\nFirefox >= 60\nEdge >= 15.15063\nExplorer 11\niOS >= 10\nSafari >= 10\nAndroid >= 6\nnot ExplorerMobile <= 11\n"
+    },
+    {
+      "repo": "EugenioDeve/fs0722a-Eugenio-Luigi-Mattera",
+      "path": "Front-End/m3/w3/d2-angular/d2-teoria/reactiveForm/.browserslistrc",
+      "url": "https://github.com/EugenioDeve/fs0722a-Eugenio-Luigi-Mattera/blob/HEAD/Front-End/m3/w3/d2-angular/d2-teoria/reactiveForm/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "thanh9669/booking-raiway",
+      "path": "src/styles/fonts/boxicons/sneat-bootstrap-html-admin-template-free-v2.0.0/sneat-bootstrap-html-admin-template-free/.browserslistrc",
+      "url": "https://github.com/thanh9669/booking-raiway/blob/HEAD/src/styles/fonts/boxicons/sneat-bootstrap-html-admin-template-free-v2.0.0/sneat-bootstrap-html-admin-template-free/.browserslistrc",
+      "sha256": "d9f9ef116b7127e5c6914eda4781e4410105980b655ac97c185303cff1ad2f11",
+      "text": ">= 0.5%\nlast 4 major versions"
+    },
+    {
+      "repo": "rajctx/full-stack-training",
+      "path": "day-27-part1-test/assignment-day-27/.browserslistrc",
+      "url": "https://github.com/rajctx/full-stack-training/blob/HEAD/day-27-part1-test/assignment-day-27/.browserslistrc",
+      "sha256": "4d917afcae808de480b3f540909d6f0a40ea6650bf6376a72d9708c8b8330640",
+      "text": "# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.\n# For additional information regarding the format and rule options, please see:\n# https://github.com/browserslist/browserslist#queries\n\n# For the full list of supported browsers by the Angular framework, please see:\n# https://angular.io/guide/browser-support\n\n# You can see what browsers were selected by your queries by running:\n#   npx browserslist\n\nlast 1 Chrome version\nlast 1 Firefox version\nlast 2 Edge major versions\nlast 2 Safari major versions\nlast 2 iOS major versions\nFirefox ESR\n"
+    },
+    {
+      "repo": "hidayat0w/Aplikasi_Kasir",
+      "path": "public/vendor/admin/.browserslistrc",
+      "url": "https://github.com/hidayat0w/Aplikasi_Kasir/blob/HEAD/public/vendor/admin/.browserslistrc",
+      "sha256": "7eeabb32cf8a66355e6d5f690f7bd4a3a98783a26c23293eed35055c19eb3bb9",
+      "text": "# https://github.com/browserslist/browserslist#readme\n\n>= 0.2%\nlast 2 major versions\nnot dead\nFirefox ESR\nEdge >= 16\nExplorer >= 10\niOS >= 9\nSafari >= 9\n"
+    },
+    {
+      "repo": "Nayeem-Bhuiyan/BloodBankCare",
+      "path": "BloodBankCare/wwwroot/Admin/vendors/bootstrap/.browserslistrc",
+      "url": "https://github.com/Nayeem-Bhuiyan/BloodBankCare/blob/HEAD/BloodBankCare/wwwroot/Admin/vendors/bootstrap/.browserslistrc",
+      "sha256": "47675d340fd90c554a1a27bf63751a44d7aa6423238e0f7e325b5f426bba2afb",
+      "text": "# https://github.com/browserslist/browserslist#readme\n\n>= 1%\nlast 1 major version\nnot dead\nChrome >= 45\nFirefox >= 38\nEdge >= 12\nExplorer >= 10\niOS >= 9\nSafari >= 9\nAndroid >= 4.4\nOpera >= 30\n"
+    },
+    {
+      "repo": "Anamika990/Tourist-Assistant-WebApp",
+      "path": "TouristGuidAssistant/AdminDesign/vendors/bootstrap/.browserslistrc",
+      "url": "https://github.com/Anamika990/Tourist-Assistant-WebApp/blob/HEAD/TouristGuidAssistant/AdminDesign/vendors/bootstrap/.browserslistrc",
+      "sha256": "47675d340fd90c554a1a27bf63751a44d7aa6423238e0f7e325b5f426bba2afb",
+      "text": "# https://github.com/browserslist/browserslist#readme\n\n>= 1%\nlast 1 major version\nnot dead\nChrome >= 45\nFirefox >= 38\nEdge >= 12\nExplorer >= 10\niOS >= 9\nSafari >= 9\nAndroid >= 4.4\nOpera >= 30\n"
+    }
+  ]
+}
