@@ -203,7 +203,10 @@ ledger, the findings and a browser-provenance lookup for five presets. It is gen
 Chromium over the DevTools protocol: **15/15 checks** on
 msedge.exe — geometry, overflow, WCAG AA contrast, preset switching, console cleanliness,
 plus pixel statistics on both viewports (desktop ink 4.92%,
-3043 distinct colours; mobile ink 5.27%).
+3043 distinct colours; mobile ink 5.27%). The same
+15 checks — **15/15** — pass against the
+deployed page at <https://llinok111.github.io/targettrace/> (`node scripts/verify-demo.cjs
+--url=https://llinok111.github.io/targettrace/`).
 
 ## Reproducing every number
 

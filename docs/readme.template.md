@@ -203,7 +203,10 @@ ledger, the findings and a browser-provenance lookup for five presets. It is gen
 Chromium over the DevTools protocol: **{{verify.passed}}/{{verify.checks}} checks** on
 {{verify.browser}} — geometry, overflow, WCAG AA contrast, preset switching, console cleanliness,
 plus pixel statistics on both viewports (desktop ink {{verify.desktopInk}}%,
-{{verify.desktopColors}} distinct colours; mobile ink {{verify.mobileInk}}%).
+{{verify.desktopColors}} distinct colours; mobile ink {{verify.mobileInk}}%). The same
+{{verify.liveChecks}} checks — **{{verify.livePassed}}/{{verify.liveChecks}}** — pass against the
+deployed page at <https://llinok111.github.io/targettrace/> (`node scripts/verify-demo.cjs
+--url=https://llinok111.github.io/targettrace/`).
 
 ## Reproducing every number
 

@@ -1,6 +1,7 @@
 {
+  "target": "demo/index.html",
   "browser": "msedge.exe",
-  "generatedAt": "2026-10-26T16:23:23.924Z",
+  "generatedAt": "2026-10-26T16:34:09.226Z",
   "checks": [
     {
       "ok": true,

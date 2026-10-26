@@ -113,12 +113,18 @@ async function main () {
     return
   }
 
+  const urlFlag = process.argv.find(item => item.startsWith('--url='))
+  const liveUrl = urlFlag ? urlFlag.slice('--url='.length) : null
+
   const demoPath = path.join(__dirname, '..', 'demo', 'index.html')
-  if (!fs.existsSync(demoPath)) throw new Error('demo/index.html missing; run `npm run demo` first')
+  if (!liveUrl && !fs.existsSync(demoPath)) {
+    throw new Error('demo/index.html missing; run `npm run demo` first')
+  }
 
   const port = 9400 + Math.floor(Math.random() * 200)
   const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'targettrace-demo-'))
-  const url = pathToFileURL(demoPath).href
+  const url = liveUrl || pathToFileURL(demoPath).href
+  const reportFile = liveUrl ? 'VERIFY-DEMO-LIVE.json' : 'VERIFY-DEMO.json'
 
   const child = spawn(browser, [
     '--headless=new',
@@ -143,7 +149,13 @@ async function main () {
       const response = await fetch(`http://127.0.0.1:${port}/json/list`)
       if (!response.ok) return null
       const list = await response.json()
-      return list.find(item => item.type === 'page' && item.webSocketDebuggerUrl) || null
+      const pages = list.filter(item => item.type === 'page' && item.webSocketDebuggerUrl)
+      if (pages.length === 0) return null
+      // Chromium can expose an extra about:blank page next to the requested one;
+      // attaching to that would make every DOM probe read an empty document.
+      return pages.find(item => item.url === url) ||
+        pages.find(item => item.url && item.url !== 'about:blank') ||
+        null
     }, 20000, 'devtools target')
 
     cdp = new Cdp(target.webSocketDebuggerUrl)
@@ -151,6 +163,12 @@ async function main () {
     await cdp.send('Runtime.enable')
     await cdp.send('Page.enable')
     await waitFor(() => cdp.evaluate('document.readyState === "complete"'), 15000, 'page load')
+    await waitFor(async () => {
+      const where = await cdp.evaluate('location.href')
+      if (where === url) return true
+      await cdp.send('Page.navigate', { url })
+      return false
+    }, 20000, 'target url')
     await cdp.send('Emulation.setDeviceMetricsOverride', {
       width: 1280, height: 900, deviceScaleFactor: 1, mobile: false
     })
@@ -308,6 +326,7 @@ async function main () {
     pass(`mobile screenshot ${mobileStats.width}x${mobileStats.height}, ink ${mobileStats.inkShare}%`)
 
     const report = {
+      target: liveUrl || 'demo/index.html',
       browser: path.basename(browser),
       generatedAt: new Date().toISOString(),
       checks,
@@ -316,7 +335,7 @@ async function main () {
     }
     fs.mkdirSync(path.join(__dirname, '..', 'docs'), { recursive: true })
     fs.writeFileSync(
-      path.join(__dirname, '..', 'docs', 'VERIFY-DEMO.json'),
+      path.join(__dirname, '..', 'docs', reportFile),
       JSON.stringify(report, null, 2) + '\n',
       'utf8'
     )
