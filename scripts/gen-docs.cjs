@@ -61,6 +61,7 @@ function values () {
   const bench = readJson('docs/BENCH.json', { warm: [], cold: [], corpusSweep: {} })
   const verify = readJson('docs/VERIFY-DEMO.json', { checks: [], shots: {} })
   const verifyLive = readJson('docs/VERIFY-DEMO-LIVE.json', null)
+  const upstream = readJson('docs/VERIFY-UPSTREAM.json', null)
   const tests = readJson('docs/TEST.json', { files: [], tests: null, pass: null, fail: null })
   const pkg = readJson('package.json', {})
 
@@ -137,7 +138,10 @@ function values () {
     'verify.desktopColors': verify.shots && verify.shots.desktop ? verify.shots.desktop.colors : null,
     'verify.mobileInk': verify.shots && verify.shots.mobile ? verify.shots.mobile.inkShare : null,
     'verify.liveChecks': verifyLive ? verifyLive.checks.length : null,
-    'verify.livePassed': verifyLive ? verifyLive.checks.filter(check => check.ok).length : null
+    'verify.livePassed': verifyLive ? verifyLive.checks.filter(check => check.ok).length : null,
+    'upstream.files': upstream && upstream.filesCompared,
+    'upstream.identical': upstream && upstream.identical,
+    'upstream.modified': upstream && upstream.modified.length,
   }
 
   return { map, measurements }

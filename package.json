@@ -19,9 +19,11 @@
     "bench": "node scripts/bench.cjs",
     "demo": "node scripts/build-demo.cjs",
     "verify:demo": "node scripts/verify-demo.cjs",
+    "verify:upstream": "node scripts/verify-upstream.cjs",
     "docs": "node scripts/gen-docs.cjs",
     "corpus": "node scripts/collect-corpus.cjs",
-    "check": "npm test && npm run measure && npm run bench && npm run demo && npm run verify:demo && npm run docs"
+    "zip": "node scripts/make-zip.cjs",
+    "check": "npm test && npm run measure && npm run bench && npm run demo && npm run verify:demo && npm run verify:upstream && npm run docs"
   },
   "keywords": [
     "browserslist",

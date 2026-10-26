@@ -163,6 +163,10 @@ Three independent checks, all re-runnable:
    on the final list, with `sizeAfter` matching at every step.
 3. **The corpus itself.** `corpus/configs.json` stores the repository, path, URL and a SHA-256 per
    config, and `test/corpus.test.js` re-verifies every hash.
+4. **Upstream is untouched.** `node scripts/verify-upstream.cjs` downloads the tarball named by
+   `package-lock.json`, checks its SHA-512 against the recorded integrity, and compares every file
+   with `node_modules/browserslist`: **{{upstream.identical}} of {{upstream.files}} identical,
+   {{upstream.modified}} modified**. No patch, no vendored copy, no fork.
 
 Corpus composition ({{corpus.total}} files, {{corpus.shapes}} distinct query shapes,
 {{corpus.clauses.total}} clauses, median {{corpus.clauses.median}} per file, max {{corpus.clauses.max}}):
@@ -217,8 +221,10 @@ npm run measure          # corpus sweep    -> docs/MEASUREMENTS.json
 npm run bench            # timing          -> docs/BENCH.json
 npm run demo             # demo/index.html
 npm run verify:demo      # headless browser acceptance -> docs/VERIFY-DEMO.json
+npm run verify:upstream  # upstream is unpatched    -> docs/VERIFY-UPSTREAM.json
 npm run docs             # regenerate README.md + docs/CORPUS.md from the JSON above
 npm run corpus           # re-collect the corpus from GitHub (needs `gh auth login`)
+npm run zip              # release archive from the git file list
 ```
 
 `README.md` and `docs/CORPUS.md` are generated from templates and the JSON files above;

@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-10-26",
+  "package": "browserslist",
+  "version": "4.29.4",
+  "installedVersion": "4.29.4",
+  "source": "https://registry.npmmirror.com/browserslist/-/browserslist-4.29.4.tgz",
+  "tarballIntegrityMatchesLockfile": true,
+  "integrity": "sha512-2TcbbiwXEq+N0kD36tykpCfyyQigUXmuwNQbnPp4Xk4PX9JOqVIKjJlIDjpH7uY6tmRGoAd+apeT1p60T8wsdA==",
+  "filesCompared": 11,
+  "identical": 11,
+  "files": [
+    "LICENSE",
+    "README.md",
+    "browser.js",
+    "cli.js",
+    "error.d.ts",
+    "error.js",
+    "index.d.ts",
+    "index.js",
+    "node.js",
+    "package.json",
+    "parse.js"
+  ],
+  "modified": [],
+  "missing": [],
+  "upstreamPatched": false
+}
